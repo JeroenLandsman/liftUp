@@ -11,14 +11,12 @@
   "dependencies": {
     "blocss": "^7.0.0",
     "browserify": "^14.4.0",
-    "eslint-plugin-react": "^7.3.0",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-connect": "^5.0.0",
     "gulp-eslint": "^4.0.0",
     "gulp-open": "^2.0.0",
-    "react-router": "^4.2.0",
-    "reactify": "^1.1.1",
+    "gulp-sass": "^3.1.0",
     "vinyl-source-stream": "^1.1.0"
   }
 }
