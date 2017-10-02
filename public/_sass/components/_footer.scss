@@ -1,0 +1,32 @@
+.c-footer {
+  height: 400px;
+
+  h6 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: 0.3px;
+    color: #484549;
+    margin-bottom: 38px;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+  }
+
+  li {
+    margin-bottom: 15px;
+    > a {
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1.57;
+      color: #cacaca;
+      &:hover {
+        color: #484549;
+        border-bottom: solid 1px #484549;
+      }
+    }
+  }
+}

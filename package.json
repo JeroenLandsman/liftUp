@@ -43,5 +43,9 @@
     "stylelint-config-blocss": "^1.0.0",
     "stylelint-scss": "^1.4.4",
     "event-stream": "^3.3.4"
+  },
+  "dependencies": {
+    "dragscroll": "0.0.8",
+    "jquery": "^3.2.1"
   }
 }

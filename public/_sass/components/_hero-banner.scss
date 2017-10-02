@@ -1,0 +1,21 @@
+.c-hero-banner {
+  background-image: url("../../images/01-Home.jpg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  height: 840px;
+  position: relative;
+
+  h1 {
+    font-size: 80px;
+    font-weight: bold;
+    color: #000000;
+    padding-top: 160px;
+    width: 500px;
+    line-height: 1;
+  }
+
+  p {
+    font-size: 17px;
+    width: 445px;
+  }
+}

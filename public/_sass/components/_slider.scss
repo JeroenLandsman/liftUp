@@ -1,0 +1,67 @@
+.c-slider {
+
+  h2 {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.17;
+    letter-spacing: 0.3px;
+    color: #1a171b;
+  }
+
+  &__filter {
+    margin: 40px 0;
+  }
+
+  &__content {
+    overflow: hidden;
+    cursor: grab;
+
+    &__inner {
+      width: 2200px;
+      height: 480px;
+      padding-right: calc(7.5% - 10px);
+      overflow-y: hidden;
+    }
+  }
+
+  &__item {
+    width: 440px;
+    height: 480px;
+    float: left;
+    overflow: hidden;
+
+    img {
+      width: 420px;
+      height: 480px;
+    }
+  }
+
+  .item-morgen {
+    width: 0;
+  }
+
+  &__controls {
+    margin-top: 40px;
+    padding-right: 30px;
+  }
+
+  &__indicator {
+    display: block;
+    width: 150px;
+    height: 4px;
+    margin-top: 15px;
+    background-color: #e0e0e0;
+    overflow: hidden;
+    align-self: center;
+
+    &__inner {
+      background-color: #ff6c6c;
+      height: 4px;
+      width: 10px;
+    }
+  }
+
+  &__arrow {
+    height: 36px;
+  }
+}
