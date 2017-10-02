@@ -1,0 +1,124 @@
+/*  =========================================================================
+    vars
+    This file contains all foundation global variables.
+    ========================================================================= */
+
+/*  =========================================================================
+    $OVERRIDES
+    Any variables you find set in Blocss that you do not wish to keep, simply
+    redefine here. This means that if Blocss sets your
+    `$blocss-base-font-size` at 16px and you wish it to be 14px, simply
+    redeclare that variable in this file.
+    ========================================================================= */
+
+$blocss-base-font-size: 20px;
+$blocss-base-line-height: 30px;
+
+
+
+/*  Responsive
+    Define your breakpoints. The first value is the appendix that shall be used
+    for your classes (e.g. `.classname@lap`), the second value is the media
+    query that the breakpoint fires at.
+    ========================================================================= */
+
+$blocss-breakpoints: (
+  "palm": "(max-width: 479px)",
+  "lap": "(min-width: 480px)",
+  "max-lap": "(max-width: 959px)",
+  "desk": "(min-width: 960px)",
+  "wall": "(min-width: 1024px)",
+  "dam": "(min-width: 1280px)"
+) !default;
+
+$blocss-fractions: 12;
+$blocss-breakpoint-has-fractions: ("lap", "desk");
+$blocss-breakpoint-has-layout-fit: ("lap", "desk");
+$blocss-breakpoint-has-layout-fill: ("lap", "desk");
+$blocss-breakpoint-has-visually-hidden: ("palm");
+
+
+
+
+
+/*  =========================================================================
+    $CUSTOM
+    Place any of your own variables that sit on top of Blocss here.
+    Please use the `!default` flag because variables defined here can be
+    overwritten by the project
+    ========================================================================= */
+
+$font-family-primary: "EtelkaPro", sans-serif !default;
+$font-family-secondary: "EtelkaPro", sans-serif !default;
+
+
+/*  Colors
+    ========================================================================= */
+
+// Dunea blue
+$brand-primary-a: #0387b5 !default;
+$brand-primary-b: #026c91 !default; // Darker
+$brand-primary-c: #4faacb !default;
+$brand-primary-d: lighten($brand-primary-a, 60) !default; // Lighter
+$background-light-water: #e0f2ff !default;
+
+$background-black: #333333 !default;
+$background-white: #ffffff !default;
+
+// Dunea green
+$brand-secondary-a: #6f8e2b !default;
+//$brand-secondary-b: lighten($brand-secondary-a, 25) !default; // Lighter
+$brand-secondary-b: darken(#6f8e2b, 8) !default; // Niet darker
+$brand-secondary-c: #9bb067 !default; // Lighter
+$background-light-dunes: #f8f3e9 !default;
+
+// Dunea yellow
+$brand-tertiary-a: #edaf12 !default;
+$brand-tertiary-b: #da9c00 !default; // Darker
+$brand-tertiary-c: lighten($brand-tertiary-a, 30) !default; // Lighter
+$brand-tertiary-d: lighten($brand-tertiary-a, 60) !default; // Lighter
+
+// Grayscale
+$black: #333333 !default;
+$gray-a: lighten($black, 50) !default;
+$gray-b: #f8f3e9 !default;
+$gray-c: #d9d2c5 !default;
+$white: #ffffff !default;
+$red: #ff6c6c !default;
+$orange: #ff682f !default;
+
+// States
+$state-error: #d4302f !default;
+$state-warning: $brand-tertiary-a !default;
+$state-success: #84b71d !default;
+
+
+
+/*  Sizes
+    ========================================================================= */
+
+$normalis: $blocss-base-font-size !default;
+$kilo: 70px !default;
+$alpha: 48px !default;
+$beta: 60px !default;
+$gamma: 30px !default;
+$delta: 24px !default;
+$epsilon: 20px !default;
+$zeta: 16px !default;
+$milli: 14px !default;
+
+
+
+/*  Animations
+    ========================================================================= */
+
+$base-timing-function: cubic-bezier(0.55, 0, 0.1, 1) !default; // Google swift bezier
+$base-transition-duration: 600ms !default;
+$base-transition-duration-short: 300ms !default;
+
+
+
+/*  Misc cosmetic
+    ========================================================================= */
+
+$border-radius--primary: 0 !default;

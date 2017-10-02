@@ -1,4 +1,27 @@
-# git ignore file
-dist
-node_modules
-*.DS_Store
+#The usual
+.DS_Store
+config.ini
+latest-change.txt
+*.map
+*-ck.js
+*.sass-cache/
+bower_components/
+node_modules/
+.idea
+
+#Pl specific
+public/index.html
+public/styleguide/*
+public/styleguide/html/styleguide.html
+public/styleguide/css/*.css
+public/_js/lib/modernizr.*
+public/_js/patternlab-*
+public/js/*
+public/css/*
+public/patterns/*
+public/data/*
+public/images/svg/*
+public/css/style.css.map
+public/annotations/*
+public/dependencyGraph.json
+patternlab.json
