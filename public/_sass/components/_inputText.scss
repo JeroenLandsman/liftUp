@@ -6,6 +6,7 @@ $c-input-text--border-radius: $border-radius--primary !default;
 .c-input-text {
   display: block;
   width: 100%;
+  vertical-align: middle;
   padding-top: calc(#{blocss-value-to-rem($c-input-text--space-vertical)});
   padding-bottom: calc(#{blocss-value-to-rem($c-input-text--space-vertical)});
   padding-right: calc(#{blocss-value-to-rem($c-input-text--space-horizontal)});
@@ -18,6 +19,7 @@ $c-input-text--border-radius: $border-radius--primary !default;
   border-radius: blocss-value-to-rem($c-input-text--border-radius);
   font: inherit;
   font-size: blocss-value-to-rem(30px);
+  appearance: none;
   background-color: transparent;
   line-height: blocss-value-to-rem(40px);
   color: $white;

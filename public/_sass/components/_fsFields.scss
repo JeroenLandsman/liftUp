@@ -1,0 +1,12 @@
+.fs-fields {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  top: 0;
+  list-style: none;
+  > li {
+    visibility: hidden;
+    position: absolute;
+    width: 100%;
+  }
+}

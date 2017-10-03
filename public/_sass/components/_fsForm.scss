@@ -1,0 +1,111 @@
+.fs-form {
+  padding-left: 100px;
+  width: 50%;
+
+  &--wide {
+    margin-right: -280px;
+  }
+
+  &.fs-show {
+    animation: animFadeIn 0.5s;
+
+    .fs-fields {
+      animation: animMove 0.5s;
+    }
+  }
+
+  li {
+    &.fs-current {
+      visibility: visible;
+    }
+  }
+}
+
+.fs-show {
+  visibility: visible !important;
+}
+
+.fs-form li.fs-hide,
+.fs-form li.fs-show {
+  pointer-events: none;
+}
+
+/* Hide current li when navigating to next question */
+.fs-form .fs-display-next .fs-hide {
+  visibility: visible;
+}
+
+.fs-form .fs-display-next .fs-hide .fs-anim-lower,
+.fs-form .fs-display-next .fs-hide .fs-anim-upper {
+  animation: animHideNext 0.5s cubic-bezier(0.7, 0, 0.3, 1) forwards;
+}
+
+.fs-form .fs-display-next .fs-hide .fs-anim-lower {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+
+
+@keyframes animHideNext {
+  to {
+    opacity: 0;
+    transform: translate3d(0, -500px, 0);
+  }
+}
+
+/* Show new li when navigating to next question */
+.fs-form .fs-display-next .fs-show .fs-anim-lower,
+.fs-form .fs-display-next .fs-show .fs-anim-upper {
+  animation: animShowNext 0.5s cubic-bezier(0.7, 0, 0.3, 1) both 0.15s;
+}
+
+.fs-form .fs-display-next .fs-show .fs-anim-lower {
+  -webkit-animation-delay: 0.25s;
+  animation-delay: 0.25s;
+}
+
+@keyframes animShowNext {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 500px, 0);
+  }
+}
+
+/* Hide current li when navigating to previous question */
+.fs-form .fs-display-prev .fs-hide {
+  visibility: visible;
+}
+
+.fs-form .fs-display-prev .fs-hide .fs-anim-lower,
+.fs-form .fs-display-prev .fs-hide .fs-anim-upper {
+  animation: animHidePrev 0.5s cubic-bezier(0.7, 0, 0.3, 1) forwards;
+}
+
+.fs-form .fs-display-prev .fs-hide .fs-anim-upper {
+  animation-delay: 0.1s;
+}
+
+@keyframes animHidePrev {
+  to {
+    opacity: 0;
+    transform: translate3d(0, 500px, 0);
+  }
+}
+
+/* Show new li when navigating to previous question */
+.fs-form .fs-display-prev .fs-show .fs-anim-lower,
+.fs-form .fs-display-prev .fs-show .fs-anim-upper {
+  animation: animShowPrev 0.5s cubic-bezier(0.7, 0, 0.3, 1) both 0.15s;
+}
+
+.fs-form .fs-display-prev .fs-show .fs-anim-upper {
+  -webkit-animation-delay: 0.25s;
+  animation-delay: 0.25s;
+}
+
+@keyframes animShowPrev {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -500px, 0);
+  }
+}

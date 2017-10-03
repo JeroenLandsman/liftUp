@@ -1,13 +1,12 @@
 html {
   font-family: $font-family-primary;
   color: $black;
-  background-color: $black;
+  background-color: $white;  
 }
 
 body {
   margin: 0;
   width: 1366px;
-  background-color: $white;
 }
 
 section {
@@ -17,4 +16,15 @@ section {
 
 footer {
   margin-left: 140px;
+}
+
+html,
+body,
+.container {
+  height:100%;
+}
+
+.container--gradient {
+  background: $red; /* For browsers that do not support gradients */
+  background: linear-gradient(to right, $red, $orange); /* Standard syntax */
 }

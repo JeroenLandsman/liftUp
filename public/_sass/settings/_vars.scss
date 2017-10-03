@@ -15,7 +15,6 @@ $blocss-base-font-size: 20px;
 $blocss-base-line-height: 30px;
 
 
-
 /*  Responsive
     Define your breakpoints. The first value is the appendix that shall be used
     for your classes (e.g. `.classname@lap`), the second value is the media
@@ -48,12 +47,12 @@ $blocss-breakpoint-has-visually-hidden: ("palm");
     overwritten by the project
     ========================================================================= */
 
-$font-family-primary: "EtelkaPro", sans-serif !default;
-$font-family-secondary: "EtelkaPro", sans-serif !default;
+$font-family-primary: "EtelkaMedium", sans-serif !default;
+$font-family-secondary: "EtelkaMedium", sans-serif !default;
 
 
 /*  Colors
-    ========================================================================= */
+========================================================================= */
 
 // Dunea blue
 $brand-primary-a: #0387b5 !default;
@@ -64,6 +63,19 @@ $background-light-water: #e0f2ff !default;
 
 $background-black: #333333 !default;
 $background-white: #ffffff !default;
+
+$white: #ffffff;
+$black: #000000;
+$grey-0: #686868;
+
+$base-0: #ff6c6c;
+$base-1: #ff682f;
+$base-3: #d04f4b;
+$base-4: #1a171b;
+$base-5: #4f2357;
+$base-6: #300d39;
+$base-7: #b24a41;
+$base-8: #65b24a;
 
 // Dunea green
 $brand-secondary-a: #6f8e2b !default;
@@ -79,13 +91,14 @@ $brand-tertiary-c: lighten($brand-tertiary-a, 30) !default; // Lighter
 $brand-tertiary-d: lighten($brand-tertiary-a, 60) !default; // Lighter
 
 // Grayscale
-$black: #333333 !default;
 $gray-a: lighten($black, 50) !default;
 $gray-b: #f8f3e9 !default;
 $gray-c: #d9d2c5 !default;
 $white: #ffffff !default;
 $red: #ff6c6c !default;
 $orange: #ff682f !default;
+
+$body-text: #3b353c;
 
 // States
 $state-error: #d4302f !default;
@@ -95,7 +108,7 @@ $state-success: #84b71d !default;
 
 
 /*  Sizes
-    ========================================================================= */
+========================================================================= */
 
 $normalis: $blocss-base-font-size !default;
 $kilo: 70px !default;
@@ -110,7 +123,7 @@ $milli: 14px !default;
 
 
 /*  Animations
-    ========================================================================= */
+========================================================================= */
 
 $base-timing-function: cubic-bezier(0.55, 0, 0.1, 1) !default; // Google swift bezier
 $base-transition-duration: 600ms !default;
@@ -119,6 +132,6 @@ $base-transition-duration-short: 300ms !default;
 
 
 /*  Misc cosmetic
-    ========================================================================= */
+========================================================================= */
 
 $border-radius--primary: 0 !default;

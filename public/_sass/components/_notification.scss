@@ -1,0 +1,13 @@
+.c-notification {
+  border-radius: 6px;
+  background-color: #b4493e;
+  color:$white;
+  padding: 20px 50px;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+
+  p:last-child {
+    margin-bottom:0;
+  }
+}
