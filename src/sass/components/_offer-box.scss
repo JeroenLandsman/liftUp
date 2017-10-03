@@ -1,0 +1,190 @@
+
+.offers {
+  margin-top: 40px;
+}
+
+.offer__item {
+  box-shadow: 0 10px 20px 0 rgba($black, .20);
+  cursor: pointer;
+  
+  margin-right: 10px;
+  position: relative;
+
+  &:before {
+    background-image: linear-gradient(to right, $base-5 0%, $base-6 96%);
+    border-radius: 6px;
+    bottom: 0;
+    content: ' ';
+    display: block;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: opacity .4s ease;
+  }
+
+  &:hover {
+    &:before {
+      opacity: 1;
+    }
+
+    .offer-box__title,
+    .offer-content__description,
+    .offer-content__price,
+    .offer-content__price sup,
+    .offer-box__subtitle,
+    .offer-content__yearprice {
+      color: $white;
+    }
+  }
+}
+
+.offer-header,
+.offer-header-small{
+  align-items: center;
+  background-image: linear-gradient(to right, $base-5 0%, $base-6 96%);
+  border-radius: 6px 6px 0 0;
+  box-sizing: border-box;
+  display: flex;
+  height: 116px;
+  padding: 15px 20px;
+
+  + .offer-content {
+    border-radius: 0 0 6px 6px;
+  }
+}
+
+.offer-header-small{
+  height: auto;
+}
+
+.offer-header-image{
+  height: 200px;
+  padding: 15px 20px;
+  border-radius: 6px 6px 0 0;
+  box-sizing: border-box;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.offer-header-image__image{
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+}
+
+.offer-header-image__title{
+  position: relative;
+  z-index: 1;
+}
+
+.offer-header-image__checkbox{
+  border-radius:40px;
+  background:#310d39;
+  width:39px;
+  height:39px;
+  position: absolute;
+  top:0;
+  right:0;
+  z-index: 1;
+  margin-top:20px;
+  margin-right:20px;
+}
+
+.offer-header__title {
+  color: $white;
+  font-size: 28px;
+  letter-spacing: .3px;
+  line-height: 34px;
+  position: relative;
+  text-shadow: 0 10px 30px rgba($black, .15);
+  width: 90%;
+}
+
+.offer-header-small__title {
+  color: $white;
+  font-size: 28px;
+  letter-spacing: .3px;
+  line-height: 34px;
+  position: relative;
+  text-shadow: 0 10px 30px rgba($black, .15);
+  width: 90%;
+  margin:0;
+}
+
+.offer-header__status {
+  background-color: $base-8;
+  border-radius: 30px;
+  color: $white;
+  display: inline-block;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 20px;
+  padding: 5px 15px;
+  position: relative;
+  top: -6px;
+}
+
+.offer-content {
+  background-color: $white;
+  border-radius: 0 0 6px 6px;
+  box-sizing: border-box;
+  padding: 15px 20px;
+}
+
+.offer-box__title {
+  color: $base-4;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: relative;
+  transition: color .3s ease;
+}
+
+.offer-box__subtitle {
+  color: $grey-0;
+  font-family: $font-family-light;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-bottom: 2px;
+  position: relative;
+  transition: color .3s ease;
+}
+
+.offer-content__description {
+  color: $body-text;
+  font-family: $font-family-light;
+  font-size: 16px;
+  letter-spacing: .2px;
+  line-height: 22px;
+  position: relative;
+  transition: color .3s ease;
+}
+
+.offer-content__price {
+  color: $body-text;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: 40px;
+  position: relative;
+  transition: color .3s ease;
+
+  sup {
+    color: #686868;
+    font-size: 15px;
+    letter-spacing: .3px;
+    top: -1em;
+  }
+}
+
+.offer-content__yearprice{
+  color: #b8b8b8;
+  position: relative;
+  transition: color .3s ease;
+  font-size: 16px;
+}

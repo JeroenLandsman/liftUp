@@ -9,6 +9,7 @@
   "author": "Jeroen Landsman",
   "license": "ISC",
   "dependencies": {
+    "babel-eslint": "^8.0.0",
     "blocss": "^7.0.0",
     "browserify": "^14.4.0",
     "eslint-plugin-react": "^7.3.0",

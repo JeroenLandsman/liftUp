@@ -65,6 +65,19 @@ $background-light-water: #e0f2ff !default;
 $background-black: #333333 !default;
 $background-white: #ffffff !default;
 
+$white: #FFFFFF;
+$black: #000000;
+$grey-0: #686868;
+
+$base-0: #FF6C6C;
+$base-1: #FF682F;
+$base-3: #D04F4B;
+$base-4: #1A171B;
+$base-5: #4F2357;
+$base-6: #300D39;
+$base-7: #B24A41;
+$base-8: #65B24A;
+
 // Dunea green
 $brand-secondary-a: #6f8e2b !default;
 //$brand-secondary-b: lighten($brand-secondary-a, 25) !default; // Lighter
@@ -79,13 +92,14 @@ $brand-tertiary-c: lighten($brand-tertiary-a, 30) !default; // Lighter
 $brand-tertiary-d: lighten($brand-tertiary-a, 60) !default; // Lighter
 
 // Grayscale
-$black: #333333 !default;
 $gray-a: lighten($black, 50) !default;
 $gray-b: #f8f3e9 !default;
 $gray-c: #d9d2c5 !default;
 $white: #ffffff !default;
 $red: #ff6c6c !default;
 $orange: #ff682f !default;
+
+$body-text: #3B353C;
 
 // States
 $state-error: #d4302f !default;
