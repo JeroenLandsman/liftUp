@@ -23,7 +23,14 @@
         </div>
       </div>
       <div class="o-layout__cell u-fraction--5of12 u-text--center">
-        <button class="c-button">Bereken maandbedrag</button>
+        <button class="c-button">
+          {{^large-bert}}
+            Bereken maandbedrag
+          {{/large-bert}}
+          {{#large-bert}}
+            Start HuisScan
+          {{/large-bert}}
+        </button>
       </div>
     </div>
   </div>

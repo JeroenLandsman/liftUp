@@ -12,6 +12,10 @@ body {
 section {
   margin-left: 140px;
   margin-bottom: 110px;
+
+  &.full {
+    margin-left: 0;
+  }
 }
 
 footer {

@@ -1,6 +1,5 @@
 .c-bert {
   width: 960px;
-  height: 180px;
   background-image: linear-gradient(to right, #ff6c6c, #ff682f);
   position: absolute;
   bottom: 0;
@@ -24,9 +23,5 @@
 
   &__inner {
     padding: 40px;
-  }
-
-  &--large {
-    height: 255px;
   }
 }

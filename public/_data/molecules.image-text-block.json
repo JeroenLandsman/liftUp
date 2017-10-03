@@ -1,0 +1,20 @@
+{
+  "image-text-block" : [
+    {
+      "reverse" : false,
+      "image-url" : "../../images/rekenmachien.png",
+      "pre-header" : "Dit levert het op",
+      "header" : "Bespaar op je gasverbruik",
+      "text" : "Je kunt met de WarmteWinner besparen op je gasverbruik. En omdat gas het grootste deel van je energierekening bepaalt, tikt dat lekker aan.",
+      "button" : "Bekijk hoeveel jij kan besparen"
+    },
+    {
+      "reverse" : true,
+      "image-url" : "../../images/huis.png",
+      "pre-header" : "Check je huis",
+      "header" : "Werkt met elke cv-ketel",
+      "text" : "De WarmteWinner werkt samen met elke cv-ketel en elk type verwarming. Je cv-ketel hoeft bovendien door de WarmteWinner minder hard te werken. Nu moet je huis nog aan een aantal criteria voldoen. Maar we ontwikkelen de WarmteWinner nog volop door. Weten of jouw huis als één van de eersten geschikt is?",
+      "button" : "Check je huis"
+    }
+  ]
+}
