@@ -1,3 +1,30 @@
-<div class="c-bert">
-  bert
+<div class="c-bert {{#large-bert}}c-bert--large{{/large-bert}}">
+  <div class="c-bert__inner">
+    {{#large-bert}}
+      <h3 class="c-bert__title">Krijg persoonlijk besparingsadvies</h3>
+    {{/large-bert}}
+    <div class="o-layout o-layout--gutter o-layout--align-middle">
+      <div class="o-layout__cell u-fraction--3of12">
+          <div class="o-form__field">
+              <label class="c-label" for="zipcode">Je postcode</label>
+              <input class="c-input-text" type="text" id="zipcode" name="zipcode" />
+          </div>
+      </div>
+      <div class="o-layout__cell u-fraction--2of12">
+          <div class="o-form__field">
+              <label class="c-label" for="housenr">Huisnummer</label>
+              <input class="c-input-text " type="text" id="housenr" name="housenr" />
+          </div>
+      </div>
+      <div class="o-layout__cell u-fraction--2of12">
+        <div class="o-form__field">
+          <label class="c-label" for="housenrAddition">Toev.</label>
+          <input class="c-input-text" type="text" id="housenrAddition" name="housenrAddition" placeholder="A" />
+        </div>
+      </div>
+      <div class="o-layout__cell u-fraction--5of12 u-text--center">
+        <button class="c-button">Bereken maandbedrag</button>
+      </div>
+    </div>
+  </div>
 </div>

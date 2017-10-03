@@ -1,8 +1,7 @@
 .c-hero-banner {
-  background-image: url("../../images/01-Home.jpg");
   background-position: top right;
   background-repeat: no-repeat;
-  height: 840px;
+  height: calc(100vh - 100px);
   position: relative;
 
   h1 {
@@ -10,7 +9,7 @@
     font-weight: bold;
     color: #000000;
     padding-top: 160px;
-    width: 500px;
+    width: 640px;
     line-height: 1;
   }
 
