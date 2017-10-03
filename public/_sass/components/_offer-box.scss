@@ -15,6 +15,10 @@
     }
   }
 
+  a{
+    color: inherit;
+  }
+
   &:before {
     background-image: linear-gradient(to right, $base-5 0%, $base-6 96%);
     border-radius: 6px;
@@ -29,11 +33,13 @@
     transition: opacity 0.4s ease;
   }
 
-  &:hover {
+  &:hover,
+  &.offer__item--checked{
     &:before {
       opacity: 1;
     }
 
+    a,
     .offer-box__title,
     .offer-content__description,
     .offer-content__price,
@@ -43,6 +49,9 @@
       color: $white;
     }
   }
+
+
+
 }
 
 .offer__item--secondary{
@@ -111,6 +120,7 @@
   &:before {
     content: "\e903";
     font-family: icons;
+    color: $white;
   }
 }
 
