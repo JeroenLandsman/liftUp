@@ -20,11 +20,11 @@ $c-button--space-horizontal: 40px !default;
 
   &:hover {
     background-color: #300c38;
-    color: #ffffff;
+    color: $white;
   }
 
   &--gradient {
-    color: #ffffff;
+    color: $white;
     background-color: none;
     background-image: linear-gradient(to right, #ff6c6c, #ff682f);
 

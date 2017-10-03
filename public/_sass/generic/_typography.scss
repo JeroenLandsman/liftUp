@@ -53,6 +53,10 @@ h6 {
   @include blocss-font-size($zeta, false);
 }
 
+.p--small{
+  font-size:14px;
+}
+
 @font-face {
   font-family: EtelkaMedium;
   src: url("../fonts/etelkamediumpro-bold-webfont.woff2") format("woff2"), url("../fonts/etelkamediumpro-bold-webfont.woff") format("woff");
@@ -148,7 +152,7 @@ h6 {
 [class^="icon-"], [class*=" icon-"] {
 
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: icomoon !important;
+  font-family: 'icons' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -163,63 +167,22 @@ h6 {
 
 .icon-PDF:before {
   content: "\e900";
-  color: #fff;
 }
-
-.icon-Info-Orange .path1:before {
+.icon-Info:before {
   content: "\e901";
-  color: rgb(0, 0, 0);
 }
-
-.icon-Info-Orange .path2:before {
-  content: "\e902";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-
-.icon-Info-Orange .path3:before {
-  content: "\e903";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-
-.icon-Info .path1:before {
-  content: "\e904";
-  color: rgb(255, 217, 214);
-}
-
-.icon-Info .path2:before {
-  content: "\e905";
-  margin-left: -1em;
-  color: rgb(255, 107, 92);
-}
-
-.icon-Info .path3:before {
-  content: "\e906";
-  margin-left: -1em;
-  color: rgb(255, 107, 92);
-}
-
 .icon-Close:before {
-  content: "\e907";
+  content: "\e902";
 }
-
 .icon-Check:before {
-  content: "\e908";
-  color: #000;
+  content: "\e903";
 }
-
 .icon-Arrow-Up:before {
-  content: "\e909";
-  color: #000;
+  content: "\e904";
 }
-
 .icon-Arrow-Right:before {
-  content: "\e90a";
-  color: #000;
+  content: "\e905";
 }
-
 .icon-Arrow-Down:before {
-  content: "\e90b";
-  color: #000;
+  content: "\e906";
 }

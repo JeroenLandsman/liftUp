@@ -12,12 +12,12 @@ input[type="checkbox"] {
 [type="checkbox"]:not(:checked) + label:before,
 [type="checkbox"]:checked + label:before {
   background-color: $base-7;
-  border-radius: 6px;
+  border-radius: 3px;
   content: "";
   height: 20px;
   left: 0;
   position: absolute;
-  top: 0;
+  top: -2px;
   width: 20px;
 }
 
@@ -49,4 +49,9 @@ input[type="checkbox"] {
 [type="checkbox"]:checked + label:after {
   opacity: 1;
   transform: scale(1);
+}
+
+[type="checkbox"] + label{
+    font-size: .7em;
+    line-height: 2.14;
 }

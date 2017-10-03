@@ -58,3 +58,23 @@ $c-input-text--border-radius: $border-radius--primary !default;
     }
   }
 }
+
+.c-input-text--postfix{
+  line-height: blocss-value-to-rem(40px);
+  border-bottom: $c-input-text--border-width solid $white;
+  vertical-align: middle;
+  padding-top: calc(#{blocss-value-to-rem(11px)});
+  padding-bottom: calc(#{blocss-value-to-rem(10px)});
+  font: inherit;
+  font-size: blocss-value-to-rem(30px);
+  color: #b24a41;
+}
+
+input[type='number'] {
+  -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}

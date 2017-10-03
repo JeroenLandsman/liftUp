@@ -8,6 +8,22 @@
   }
 }
 
+.u-mb {
+  &--small {
+    margin-bottom:20px;
+  }
+
+  &--large {
+    margin-bottom:40px;
+  }
+}
+
+.u-ml {
+  &--small{
+    margin-left:10px;
+  }
+}
+
 .u-text {
   &--center {
     text-align: center;

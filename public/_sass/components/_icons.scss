@@ -1,0 +1,16 @@
+.icon-info--round{
+    border-radius: 20px;
+    width: 16px;
+    height: 16px;
+    background-color: #ffd9d6;
+    text-decoration: none;
+    color:#ff6b5c;
+    display: inline-block;
+    text-align: center;
+
+    &:before{
+        content: "\e901";
+        font-family: 'icons';
+        font-size: 11px;
+    }
+}
