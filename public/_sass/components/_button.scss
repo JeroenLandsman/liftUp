@@ -3,6 +3,7 @@ $c-button--space-horizontal: 40px !default;
 
 .c-button {
   border-radius: 6px;
+  font-family: $font-family-primary;
   background-color: #ffffff;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
   padding-top: calc(#{blocss-value-to-rem($c-button--space-vertical)});
@@ -10,10 +11,26 @@ $c-button--space-horizontal: 40px !default;
   padding-left: calc(#{blocss-value-to-rem($c-button--space-horizontal)});
   padding-right: calc(#{blocss-value-to-rem($c-button--space-horizontal)});
   font-size: blocss-value-to-rem(18px);
-  font-weight: 500;
   line-height: 1.67;
   text-align: center;
   color: #1a171b;
   border:0;
   cursor:pointer;
+  transition: all 0.1s ease-in-out;
+
+  &:hover {
+    background-color: #300c38;
+    color: #ffffff;
+  }
+
+  &--gradient {
+    color: #ffffff;
+    background-color: none;
+    background-image: linear-gradient(to right, #ff6c6c, #ff682f);
+
+    &:hover {
+      background-image: none;
+      background-color: #300c38;
+    }
+  }
 }
