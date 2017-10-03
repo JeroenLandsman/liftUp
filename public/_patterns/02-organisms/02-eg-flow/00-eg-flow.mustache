@@ -1,123 +1,113 @@
 <div class="container container--gradient">
-    <div class="popup fs-form-wrap" id="fs-form-wrap">
-        <form id="myform" class="fs-form fs-form-full" autocomplete="off">
-            <ol class="fs-fields">
-                <!-- zipcode -->
-                <li>
-                    <div class="fs-anim-upper">
-                    <h4>Uw energie</h4>
-                    <h1>Waar woon je?</h1>
-                    <div class="o-layout o-layout--gutter-large">
-                        <div class="o-layout__cell u-fraction--6of12">
-                            <div class="o-form__field">
-                                <label class="c-label" for="zipcode">Je postcode</label>
-                                <input class="c-input-text" type="text" id="zipcode" name="zipcode" />
+        <div class="popup fs-form-wrap" id="fs-form-wrap">
+            <form id="myform" class="fs-form fs-form-full" autocomplete="off">
+                <ol class="fs-fields">
+                    <!-- Upsell -->
+                    <li>
+                        <div class="fs-anim-lower">
+                            <h4>Uw energie</h4>
+                            <h1>Met een beetje extra<br/> bespaar je nog meer</h1>
+                            <p>Zeker weten dat je goed zit? Bespaar energie met Toon, of houd je ketel tiptop in orde met Ketelcomfort.</p>
+
+                            <div class="o-layout o-layout--gutter-small fs-form--wide">
+                                <div class="o-layout__cell u-fraction--6of12">
+                                    <div class="offer__item offer__item--secondary js-offerItem offer__item--checked">
+                                        <div class="offer-header-image">
+                                            <div class="offer-header-image__checkbox">
+                                            </div>
+                                            <h2 class="offer-header-image__title">
+                                                Ketelcomfort
+                                            </h2>
+                                            <div class="offer-header-image__image">
+                                                <img src="../image/KetelComfort.png">
+                                            </div>
+                                        </div>
+                                
+                                        <div class="offer-content">
+                                            <div class="offer-content__description">
+                                                Om het jaar verzekerd van onderhoud door een Eneco monteur.
+                                            </div>
+                                            <div class="o-layout o-layout--align-bottom">
+                                                <div class="o-layout__cell">
+                                                    <div class="offer-content__price">
+                                                        € 8,95 <sup>/mnd</sup>
+                                                    </div>
+                                                </div>
+                                                <div class="o-layout__cell">
+                                                    <div class="offer-content__yearprice">
+                                                        € 107,- per jaar
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="o-layout__cell u-fraction--6of12">
+                                    <div class="offer__item offer__item--secondary js-offerItem">
+                                        <div class="offer-header-image">
+                                            <div class="offer-header-image__checkbox">
+                                            </div>
+                                            <h2 class="offer-header-image__title">
+                                                Toon Thermostaat
+                                            </h2>
+                                            <div class="offer-header-image__image">
+                                                <img src="../image/Toon.png">
+                                            </div>
+                                        </div>
+                                
+                                        <div class="offer-content">
+                                            <div class="offer-content__description">
+                                                Om het jaar verzekerd van onderhoud door een Eneco monteur.
+                                            </div>
+                                            <div class="o-layout o-layout--align-bottom">
+                                                <div class="o-layout__cell">
+                                                    <div class="offer-content__price">
+                                                        € 3,50 <sup>/mnd</sup>
+                                                    </div>
+                                                </div>
+                                                <div class="o-layout__cell">
+                                                    <div class="offer-content__yearprice">
+                                                        € 42,- per jaar
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>   
+                                </div>
+                            </div>
+
+                            <div class="o-layout u-mt--large">
+                                <div class="o-layout__cell">
+                                    <div class="o-form__field">
+                                        <button class="c-button fs-continue">Bereken aanbod</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="o-layout__cell u-fraction--3of12">
-                            <div class="o-form__field">
-                                <label class="c-label" for="housenr">Huisnummer</label>
-                                <input class="c-input-text " type="text" id="housenr" name="housenr" />
-                            </div>
-                        </div>
-                        <div class="o-layout__cell u-fraction--3of12">
-                            <div class="o-form__field">
-                                <label class="c-label" for="housenrAddition">Toev.</label>
-                                <input class="c-input-text" type="text" id="housenrAddition" name="housenrAddition" placeholder="A" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="o-layout u-mt--large">
-                        <div class="o-layout__cell">
-                            <div class="o-form__field">
-                                <button class="c-button fs-continue">Volgende stap</button>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <!-- //zipcode -->
-                <!-- energyType -->
-                <li>
-                    <div class="fs-anim-lower">
+                    </li>
+                    <!-- //Upsell -->
+                    <!-- zipcode -->
+                    <li>
+                        <div class="fs-anim-upper">
                         <h4>Uw energie</h4>
-                        <h1>Welke energie wil je?</h1>
-                    
-                        <div class="o-layout o-layout--gutter-tiny">
-                            <div class="o-layout__cell u-fraction--4of12">
-                                <div class="offer__item fs-continue">
-                                    <div class="offer-content">
-                                    <div class="offer-box__subtitle">Voordelig samen</div>
-                                    <div class="offer-box__title">Stroom &amp; Gas</div>
-                                    </div>
+                        <h1>Waar woon je?</h1>
+                        <div class="o-layout o-layout--gutter-large">
+                            <div class="o-layout__cell u-fraction--6of12">
+                                <div class="o-form__field">
+                                    <label class="c-label" for="zipcode">Je postcode</label>
+                                    <input class="c-input-text" type="text" id="zipcode" name="zipcode" />
                                 </div>
                             </div>
-                            <div class="o-layout__cell u-fraction--4of12">
-                                <div class="offer__item">
-                                    <div class="offer-content">
-                                    <div class="offer-box__subtitle">Alleen</div>
-                                    <div class="offer-box__title">Stroom</div>
-                                    </div>
+                            <div class="o-layout__cell u-fraction--3of12">
+                                <div class="o-form__field">
+                                    <label class="c-label" for="housenr">Huisnummer</label>
+                                    <input class="c-input-text " type="text" id="housenr" name="housenr" />
                                 </div>
                             </div>
-                            <div class="o-layout__cell u-fraction--4of12">
-                                <div class="offer__item">
-                                    <div class="offer-content">
-                                    <div class="offer-box__subtitle">Alleen</div>
-                                    <div class="offer-box__title">Gas</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <!-- //energyType -->
-                <!-- energyUsage -->
-                <li>
-                    <div class="fs-anim-lower">
-                        <h4>Uw energie</h4>
-                        <h1>Weet je je energieverbruik?</h1>
-        
-                        <div class="o-layout o-layout--gutter-tiny">
-                            <div class="o-layout__cell u-fraction--5of12">
-                                <div class="offer__item offer__item--primary fs-continue">
-                                    <div class="offer-content">
-                                    <div class="offer-box__subtitle">Aanbod op maat</div>
-                                    <div class="offer-box__title">Ja dat weet ik</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="o-layout__cell u-fraction--5of12">
-                                <div class="offer__item offer__item--primary">
-                                    <div class="offer-content">
-                                    <div class="offer-box__subtitle">Schatting op basis van adres</div>
-                                    <div class="offer-box__title">Nee, dat weet ik niet</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <!-- //energyUsage -->
-                <!-- electricityUsage -->
-                <li>
-                    <div class="fs-anim-lower">
-                        <h4>Uw energie</h4>
-                        <h1>Wat is je stroomverbruik?</h1>
-        
-                        <label class="c-label" for="monthlyUsage">Verbruik per maand</label>
-                        <input type="text" class="c-input-text" id="monthlyUsage" name="monthlyUsage" />
-                        
-                        <div class="o-layout o-layout--gutter-large u-mt--large">
-                            <div class="o-layout__cell u-fraction-auto">
-                                <div class="c-checkbox">
-                                    <input type="checkbox" id="doubleMeter" name="doubleMeter" value="doubleMeter">
-                                    <label for="doubleMeter">Ik heb een dubbele meter</label>
-                                </div>
-                            </div>
-                            <div class="o-layout__cell u-fraction-auto">
-                                <div class="c-checkbox">
-                                    <input type="checkbox" id="sunPanels" name="sunPanels" value="sunPanels">
-                                    <label for="doubleMeter">Ik heb zonnepanelen</label>
+                            <div class="o-layout__cell u-fraction--3of12">
+                                <div class="o-form__field">
+                                    <label class="c-label" for="housenrAddition">Toev.</label>
+                                    <input class="c-input-text" type="text" id="housenrAddition" name="housenrAddition" placeholder="A" />
                                 </div>
                             </div>
                         </div>
@@ -128,404 +118,421 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </li>
-                <!-- //electricityUsage -->
-                <!-- electricityUsageEstimation -->
-                <li>
-                    <div class="fs-anim-lower">
-                        <h4>Uw energie</h4>
-                        <h1>Hoe woon je?</h1>
-                    
-                        <div class="o-layout">
-                            <div class="o-layout__cell ">
-                                <label class="c-label" for="houseType">Soort huis</label>
-                                <select class="c-select">
-                                    <option value="appartement">Appartement</option>
-                                </select>
-                            </div>
-                            <div class="o-layout__cell u-mt--small">
-                                <label class="c-label" for="yearOfConstruction">Bouwjaar</label>
-                                <select class="c-select">
-                                    <option value="2011 of later">2011 of later</option>
-                                </select>
-                            </div>
-                            <div class="o-layout__cell u-mt--small">
-                                <label class="c-label" for="numberOfPersons">Aantal personen</label>
-                                <select class="c-select">
-                                    <option value="2 personen">2 personen</option>
-                                </select>
-                            </div>
-                        </div>
+                    </li>
+                    <!-- //zipcode -->
+                    <!-- energyType -->
+                    <li>
+                        <div class="fs-anim-lower">
+                            <h4>Uw energie</h4>
+                            <h1>Welke energie wil je?</h1>
                         
-                        <div class="o-layout o-layout--gutter-large u-mt--large">
-                            <div class="o-layout__cell u-fraction-auto">
-                                <div class="c-checkbox">
-                                    <input type="checkbox" id="doubleMeter" name="doubleMeter" value="doubleMeter">
-                                    <label for="doubleMeter">Ik heb een dubbele meter</label>
+                            <div class="o-layout o-layout--gutter-tiny">
+                                <div class="o-layout__cell u-fraction--4of12">
+                                    <div class="offer__item fs-continue">
+                                        <div class="offer-content">
+                                        <div class="offer-box__subtitle">Voordelig samen</div>
+                                        <div class="offer-box__title">Stroom &amp; Gas</div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="o-layout__cell u-fraction-auto">
-                                <div class="c-checkbox">
-                                    <input type="checkbox" id="sunPanels" name="sunPanels" value="sunPanels">
-                                    <label for="sunPanels">Ik heb zonnepanelen</label>
+                                <div class="o-layout__cell u-fraction--4of12">
+                                    <div class="offer__item">
+                                        <div class="offer-content">
+                                        <div class="offer-box__subtitle">Alleen</div>
+                                        <div class="offer-box__title">Stroom</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="o-layout__cell u-fraction--4of12">
+                                    <div class="offer__item">
+                                        <div class="offer-content">
+                                        <div class="offer-box__subtitle">Alleen</div>
+                                        <div class="offer-box__title">Gas</div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                    </li>
+                    <!-- //energyType -->
+                    <!-- energyUsage -->
+                    <li>
+                        <div class="fs-anim-lower">
+                            <h4>Uw energie</h4>
+                            <h1>Weet je je energieverbruik?</h1>
+            
+                            <div class="o-layout o-layout--gutter-tiny">
+                                <div class="o-layout__cell u-fraction--5of12">
+                                    <div class="offer__item offer__item--primary fs-continue">
+                                        <div class="offer-content">
+                                        <div class="offer-box__subtitle">Aanbod op maat</div>
+                                        <div class="offer-box__title">Ja dat weet ik</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="o-layout__cell u-fraction--5of12">
+                                    <div class="offer__item offer__item--primary">
+                                        <div class="offer-content">
+                                        <div class="offer-box__subtitle">Schatting op basis van adres</div>
+                                        <div class="offer-box__title">Nee, dat weet ik niet</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- //energyUsage -->
+                    <!-- electricityUsage -->
+                    <li>
+                        <div class="fs-anim-lower">
+                            <h4>Uw energie</h4>
+                            <h1>Wat is je stroomverbruik?</h1>
+            
+                            <label class="c-label" for="monthlyUsage">Verbruik per maand</label>
+                            <input type="text" class="c-input-text" id="monthlyUsage" name="monthlyUsage" />
+                            
+                            <div class="o-layout o-layout--gutter-large u-mt--large">
+                                <div class="o-layout__cell u-fraction-auto">
+                                    <div class="c-checkbox">
+                                        <input type="checkbox" id="doubleMeter" name="doubleMeter" value="doubleMeter">
+                                        <label for="doubleMeter">Ik heb een dubbele meter</label>
+                                    </div>
+                                </div>
+                                <div class="o-layout__cell u-fraction-auto">
+                                    <div class="c-checkbox">
+                                        <input type="checkbox" id="sunPanels" name="sunPanels" value="sunPanels">
+                                        <label for="doubleMeter">Ik heb zonnepanelen</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="o-layout u-mt--large">
+                                <div class="o-layout__cell">
+                                    <div class="o-form__field">
+                                        <button class="c-button fs-continue">Volgende stap</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- //electricityUsage -->
+                    <!-- electricityUsageEstimation -->
+                    <li>
+                        <div class="fs-anim-lower">
+                            <h4>Uw energie</h4>
+                            <h1>Hoe woon je?</h1>
+                        
+                            <div class="o-layout">
+                                <div class="o-layout__cell ">
+                                    <label class="c-label" for="houseType">Soort huis</label>
+                                    <select class="c-select">
+                                        <option value="appartement">Appartement</option>
+                                    </select>
+                                </div>
+                                <div class="o-layout__cell u-mt--small">
+                                    <label class="c-label" for="yearOfConstruction">Bouwjaar</label>
+                                    <select class="c-select">
+                                        <option value="2011 of later">2011 of later</option>
+                                    </select>
+                                </div>
+                                <div class="o-layout__cell u-mt--small">
+                                    <label class="c-label" for="numberOfPersons">Aantal personen</label>
+                                    <select class="c-select">
+                                        <option value="2 personen">2 personen</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="o-layout o-layout--gutter-large u-mt--large">
+                                <div class="o-layout__cell u-fraction-auto">
+                                    <div class="c-checkbox">
+                                        <input type="checkbox" id="doubleMeter" name="doubleMeter" value="doubleMeter">
+                                        <label for="doubleMeter">Ik heb een dubbele meter</label>
+                                    </div>
+                                </div>
+                                <div class="o-layout__cell u-fraction-auto">
+                                    <div class="c-checkbox">
+                                        <input type="checkbox" id="sunPanels" name="sunPanels" value="sunPanels">
+                                        <label for="sunPanels">Ik heb zonnepanelen</label>
+                                    </div>
+                                </div>
+                            </div>
 
-                        <div class="c-notification u-mt--large">
-                            <p>We schatten je verbruik aan stroom op 2366 k@h en gs op 773 m3</p>
-                        </div>
-                        
-                        <div class="o-layout u-mt--large">
-                            <div class="o-layout__cell">
-                                <div class="o-form__field">
-                                    <button class="c-button fs-continue">Bereken aanbod</button>
-                                </div>
+                            <div class="c-notification u-mt--large">
+                                <p>We schatten je verbruik aan stroom op 2366 k@h en gs op 773 m3</p>
                             </div>
-                        </div>
-                    </div>
-                </li>
-                <!-- //electricityUsageEstimation -->
-                <!-- gasUsage -->
-                <li>
-                    <div class="fs-anim-lower">
-                        <h4>Uw energie</h4>
-                        <h1>Wat is je gasverbruik?</h1>
-                        <label class="c-label" for="monthlyUsage">Verbruik per maand</label>
-                        <input class="c-input-text" type="text" id="monthlyUsage" name="monthlyUsage" />
-                        
-                        <div class="o-layout u-mt--large">
-                            <div class="o-layout__cell">
-                                <div class="o-form__field">
-                                    <button class="c-button fs-continue">Bereken aanbod</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <!-- //gasUsage -->
-                <!-- electricityOffer -->
-                <li>
-                    <div class="fs-anim-lower">
-                        <h4>Uw energie</h4>
-                        <h1>Aanbod stroom</h1>
-    
-                        <p>Dit aanbod is berekend met een verbruik van 2946 kWh. Onze stroom is altijd groen maar jij hebt de keuze waarvandaan.</p>
-                
-                        <div class="o-layout o-layout--gutter-large fs-form--wide">
-                            <div class="o-layout__cell u-fraction--6of12">
-                                <div class="offer__item offer__item--secondary">
-                                    <div class="offer-header">
-                                        <h2 class="offer-header__title">
-                                            Groene stroom uit Europa
-                                        </h2>
-                                    </div>
                             
-                                    <div class="offer-content">
-                                        <div class="offer-content__description">
-                                            Voornamelijk gewonnen uit wind en een beetje zon uit Europa. Wij noemen dit EcoStroom.
-                                        </div>
-                                        <div class="o-layout o-layout--gutter-small o-layout--align-bottom">
-                                            <div class="o-layout__cell u-fraction--6of12">
-                                                <div class="offer-content__price">
-                                                    € 30,- <sup>/mnd</sup>
-                                                </div>
-                                            </div>
-                                            <div class="o-layout__cell u-fraction--6of12">
-                                                <div class="offer-content__yearprice">
-                                                    € 360,- per jaar
-                                                </div>
-                                            </div>
-                                        </div>
+                            <div class="o-layout u-mt--large">
+                                <div class="o-layout__cell">
+                                    <div class="o-form__field">
+                                        <button class="c-button fs-continue">Bereken aanbod</button>
                                     </div>
                                 </div>
                             </div>
-                            <div class="o-layout__cell u-fraction--6of12">
-                                <div class="offer__item offer__item--secondary fs-continue">
-                                    <div class="offer-header">
-                                        <h2 class="offer-header__title">
-                                            Groene stroom uit Nederland
-                                            <span class="offer-header__status">Nog groener</span>
-                                        </h2>
-                                    </div>
+                        </div>
+                    </li>
+                    <!-- //electricityUsageEstimation -->
+                    <!-- gasUsage -->
+                    <li>
+                        <div class="fs-anim-lower">
+                            <h4>Uw energie</h4>
+                            <h1>Wat is je gasverbruik?</h1>
+                            <label class="c-label" for="monthlyUsage">Verbruik per maand</label>
+                            <input class="c-input-text" type="text" id="monthlyUsage" name="monthlyUsage" />
                             
-                                    <div class="offer-content">
-                                        <div class="offer-content__description">
-                                            Lokaal efficiënter opgewekte stroom uit wind. Wij noemen dit HollandseWind.
-                                        </div>
-                                        <div class="o-layout o-layout--gutter-small o-layout--align-bottom">
-                                            <div class="o-layout__cell u-fraction--6of12">
-                                                <div class="offer-content__price">
-                                                    € 30,80 <sup>/mnd</sup>
-                                                </div>
-                                            </div>
-                                            <div class="o-layout__cell u-fraction--6of12">
-                                                <div class="offer-content__yearprice">
-                                                    € 369,60- per jaar
-                                                </div>
-                                            </div>
-                                        </div>
+                            <div class="o-layout u-mt--large">
+                                <div class="o-layout__cell">
+                                    <div class="o-form__field">
+                                        <button class="c-button fs-continue">Bereken aanbod</button>
                                     </div>
-                                </div>   
+                                </div>
                             </div>
                         </div>
-                    </div>  
-                </li>
-                <!-- //electricityOffer -->
-                <!-- gasOffer -->
-                <li>
-                    <div class="fs-anim-lower">
-                        <h4>Uw energie</h4>
-                        <h1>Aanbod gas</h1>
-                        <p>Dit aanbod is berekend met een verbruik van 1393 m³. Verzekerd van een warm huis met de mogelijkheid om te verduurzamen.</p>
+                    </li>
+                    <!-- //gasUsage -->
+                    <!-- electricityOffer -->
+                    <li>
+                        <div class="fs-anim-lower">
+                            <h4>Uw energie</h4>
+                            <h1>Aanbod stroom</h1>
+        
+                            <p>Dit aanbod is berekend met een verbruik van 2946 kWh. Onze stroom is altijd groen maar jij hebt de keuze waarvandaan.</p>
                     
-                        <div class="o-layout o-layout--gutter-large fs-form--wide">
-                            <div class="o-layout__cell u-fraction--6of12">
-                                <div class="offer__item offer__item--secondary">
-                                    <div class="offer-header">
-                                        <h2 class="offer-header__title">
-                                            Gas
-                                        </h2>
-                                    </div>
-                            
-                                    <div class="offer-content">
-                                        <div class="offer-content__description">
-                                            Gewoon aardgas. Verzekerd van een warm huis de hele winter door.
-                                        </div>
-                                        <div class="o-layout o-layout--gutter-small o-layout--align-bottom">
-                                            <div class="o-layout__cell u-fraction--6of12">
-                                                <div class="offer-content__price">
-                                                    € 80,- <sup>/mnd</sup>
-                                                </div>
-                                            </div>
-                                            <div class="o-layout__cell u-fraction--6of12">
-                                                <div class="offer-content__yearprice">
-                                                    € 960,- per jaar
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="o-layout__cell u-fraction--6of12">
-                                <div class="offer__item offer__item--secondary fs-continue">
-                                    <div class="offer-header">
-                                        <h2 class="offer-header__title">
-                                            Gecompenseerd gas
-                                            <span class="offer-header__status">Nog groener</span>
-                                        </h2>
-                                    </div>
-                            
-                                    <div class="offer-content">
-                                        <div class="offer-content__description">
-                                            Compensatie voor het gebruik van gewoon gas, de mogelijkheid te verduurzamen.
-                                        </div>
-                                        <div class="o-layout o-layout--gutter-small o-layout--align-bottom">
-                                            <div class="o-layout__cell u-fraction--6of12">
-                                                <div class="offer-content__price">
-                                                    € 80,60 <sup>/mnd</sup>
-                                                </div>
-                                            </div>
-                                            <div class="o-layout__cell u-fraction--6of12">
-                                                <div class="offer-content__yearprice">
-                                                    € 967,20- per jaar
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>   
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <!-- //gasOffer -->
-                <!-- Duration -->
-                <li>
-                    <div class="fs-anim-lower">
-                        <h4>Uw energie</h4>
-                        <h1>Welke looptijd wil je?</h1>
-    
-                        <div class="o-layout o-layout--gutter-small fs-form--wide">
-                            <div class="o-layout__cell u-fraction--4of12">
-                                <div class="offer__item offer__item--secondary">
-                                    <div class="offer-header-small">
-                                        <h2 class="offer-header-small__title">
-                                            Flexibel
-                                        </h2>
-                                    </div>
-                            
-                                    <div class="offer-content">
-                                        <div class="offer-content__description">
-                                            Een variabele prijs en<br/> iedere maand opzegbaar.
-                                        </div>
-                                        <div class="o-layout o-layout--align-bottom">
-                                            <div class="o-layout__cell">
-                                                <div class="offer-content__price">
-                                                    € 111,40 <sup>/mnd</sup>
-                                                </div>
-                                            </div>
-                                            <div class="o-layout__cell">
-                                                <div class="offer-content__yearprice">
-                                                    € 1336,80 per jaar
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="o-layout__cell u-fraction--4of12">
-                                <div class="offer__item offer__item--secondary fs-continue">
-                                    <div class="offer-header-small">
-                                        <h2 class="offer-header-small__title">
-                                            1 jaar
-                                        </h2>
-                                    </div>
-                            
-                                    <div class="offer-content">
-                                        <div class="offer-content__description">
-                                            Een vaste periode een<br/> vaste prijs.
-                                        </div>
-                                        <div class="o-layout o-layout--align-bottom">
-                                            <div class="o-layout__cell">
-                                                <div class="offer-content__price">
-                                                    € 108,40 <sup>/mnd</sup>
-                                                </div>
-                                            </div>
-                                            <div class="o-layout__cell">
-                                                <div class="offer-content__yearprice">
-                                                    € 1312,30 per jaar
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>   
-                            </div>
-                            <div class="o-layout__cell u-fraction--4of12">
-                                <div class="offer__item offer__item--secondary">
-                                    <div class="offer-header-small">
-                                        <h2 class="offer-header-small__title">
-                                            3 jaar
-                                        </h2>
-                                    </div>
-                            
-                                    <div class="offer-content">
-                                        <div class="offer-content__description">
-                                            Een vaste periode een<br/> vaste prijs.
-                                        </div>
-                                        <div class="o-layout o-layout--align-bottom">
-                                            <div class="o-layout__cell">
-                                                <div class="offer-content__price">
-                                                    € 105,40 <sup>/mnd</sup>
-                                                </div>
-                                            </div>
-                                            <div class="o-layout__cell">
-                                                <div class="offer-content__yearprice">
-                                                    € 1092,12 per jaar
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>   
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <!-- //Duration -->
-                <!-- Upsell -->
-                <li>
-                    <div class="fs-anim-lower">
-                        <h4>Uw energie</h4>
-                        <h1>Met een beetje extra<br/> bespaar je nog meer</h1>
-                        <p>Zeker weten dat je goed zit? Bespaar energie met Toon, of houd je ketel tiptop in orde met Ketelcomfort.</p>
-
-                        <div class="o-layout o-layout--gutter-small fs-form--wide">
-                            <div class="o-layout__cell u-fraction--6of12">
-                                <div class="offer__item offer__item--secondary">
-                                        <div class="offer-header-image">
-                                            <h2 class="offer-header-image__title">
-                                                Ketelcomfort
+                            <div class="o-layout o-layout--gutter-large fs-form--wide">
+                                <div class="o-layout__cell u-fraction--6of12">
+                                    <div class="offer__item offer__item--secondary">
+                                        <div class="offer-header">
+                                            <h2 class="offer-header__title">
+                                                Groene stroom uit Europa
                                             </h2>
-                                            <div class="offer-header-image__image">
-                                                <img src="img/KetelComfort.png">
+                                        </div>
+                                
+                                        <div class="offer-content">
+                                            <div class="offer-content__description">
+                                                Voornamelijk gewonnen uit wind en een beetje zon uit Europa. Wij noemen dit EcoStroom.
                                             </div>
-                                        </div>
-                            
-                                    <div class="offer-content">
-                                        <div class="offer-content__description">
-                                            Om het jaar verzekerd van onderhoud door een Eneco monteur.
-                                        </div>
-                                        <div class="o-layout o-layout--align-bottom">
-                                            <div class="o-layout__cell">
-                                                <div class="offer-content__price">
-                                                    € 8,95 <sup>/mnd</sup>
+                                            <div class="o-layout o-layout--gutter-small o-layout--align-bottom">
+                                                <div class="o-layout__cell u-fraction--6of12">
+                                                    <div class="offer-content__price">
+                                                        € 30,- <sup>/mnd</sup>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="o-layout__cell">
-                                                <div class="offer-content__yearprice">
-                                                    € 107,- per jaar
+                                                <div class="o-layout__cell u-fraction--6of12">
+                                                    <div class="offer-content__yearprice">
+                                                        € 360,- per jaar
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="o-layout__cell u-fraction--6of12">
-                                <div class="offer__item offer__item--secondary">
-                                    <div class="offer-header-image">
-                                        <div class="offer-header-image__checkbox">
-
+                                <div class="o-layout__cell u-fraction--6of12">
+                                    <div class="offer__item offer__item--secondary fs-continue">
+                                        <div class="offer-header">
+                                            <h2 class="offer-header__title">
+                                                Groene stroom uit Nederland
+                                                <span class="offer-header__status">Nog groener</span>
+                                            </h2>
                                         </div>
-                                        <h2 class="offer-header-image__title">
-                                            Toon Thermostaat
-                                        </h2>
-                                        <div class="offer-header-image__image">
-                                            <img src="img/Toon.png">
-                                        </div>
-                                    </div>
-                            
-                                    <div class="offer-content">
-                                        <div class="offer-content__description">
-                                            Om het jaar verzekerd van onderhoud door een Eneco monteur.
-                                        </div>
-                                        <div class="o-layout o-layout--align-bottom">
-                                            <div class="o-layout__cell">
-                                                <div class="offer-content__price">
-                                                    € 3,50 <sup>/mnd</sup>
-                                                </div>
+                                
+                                        <div class="offer-content">
+                                            <div class="offer-content__description">
+                                                Lokaal efficiënter opgewekte stroom uit wind. Wij noemen dit HollandseWind.
                                             </div>
-                                            <div class="o-layout__cell">
-                                                <div class="offer-content__yearprice">
-                                                    € 42,- per jaar
+                                            <div class="o-layout o-layout--gutter-small o-layout--align-bottom">
+                                                <div class="o-layout__cell u-fraction--6of12">
+                                                    <div class="offer-content__price">
+                                                        € 30,80 <sup>/mnd</sup>
+                                                    </div>
+                                                </div>
+                                                <div class="o-layout__cell u-fraction--6of12">
+                                                    <div class="offer-content__yearprice">
+                                                        € 369,60- per jaar
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>   
+                                    </div>   
+                                </div>
                             </div>
-                        </div>
-
-                        <div class="o-layout u-mt--large">
-                            <div class="o-layout__cell">
-                                <div class="o-form__field">
-                                    <button class="c-button fs-continue">Bereken aanbod</button>
+                        </div>  
+                    </li>
+                    <!-- //electricityOffer -->
+                    <!-- gasOffer -->
+                    <li>
+                        <div class="fs-anim-lower">
+                            <h4>Uw energie</h4>
+                            <h1>Aanbod gas</h1>
+                            <p>Dit aanbod is berekend met een verbruik van 1393 m³. Verzekerd van een warm huis met de mogelijkheid om te verduurzamen.</p>
+                        
+                            <div class="o-layout o-layout--gutter-large fs-form--wide">
+                                <div class="o-layout__cell u-fraction--6of12">
+                                    <div class="offer__item offer__item--secondary">
+                                        <div class="offer-header">
+                                            <h2 class="offer-header__title">
+                                                Gas
+                                            </h2>
+                                        </div>
+                                
+                                        <div class="offer-content">
+                                            <div class="offer-content__description">
+                                                Gewoon aardgas. Verzekerd van een warm huis de hele winter door.
+                                            </div>
+                                            <div class="o-layout o-layout--gutter-small o-layout--align-bottom">
+                                                <div class="o-layout__cell u-fraction--6of12">
+                                                    <div class="offer-content__price">
+                                                        € 80,- <sup>/mnd</sup>
+                                                    </div>
+                                                </div>
+                                                <div class="o-layout__cell u-fraction--6of12">
+                                                    <div class="offer-content__yearprice">
+                                                        € 960,- per jaar
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="o-layout__cell u-fraction--6of12">
+                                    <div class="offer__item offer__item--secondary fs-continue">
+                                        <div class="offer-header">
+                                            <h2 class="offer-header__title">
+                                                Gecompenseerd gas
+                                                <span class="offer-header__status">Nog groener</span>
+                                            </h2>
+                                        </div>
+                                
+                                        <div class="offer-content">
+                                            <div class="offer-content__description">
+                                                Compensatie voor het gebruik van gewoon gas, de mogelijkheid te verduurzamen.
+                                            </div>
+                                            <div class="o-layout o-layout--gutter-small o-layout--align-bottom">
+                                                <div class="o-layout__cell u-fraction--6of12">
+                                                    <div class="offer-content__price">
+                                                        € 80,60 <sup>/mnd</sup>
+                                                    </div>
+                                                </div>
+                                                <div class="o-layout__cell u-fraction--6of12">
+                                                    <div class="offer-content__yearprice">
+                                                        € 967,20- per jaar
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>   
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </li>
-                <!-- //Upsell -->
-                <!-- PersonalDetails -->
-                <li>
-                    <h1>PersonalDetails</h1>
-                </li>
-                <!-- //PersonalDetails -->
-                <!-- PaymentDetails -->
-                <li>
-                    <h1>PaymentDetails</h1>
-                </li>
-                <!-- //PaymentDetails -->
-            </ol><!-- /fs-fields -->
-        </form>
+                    </li>
+                    <!-- //gasOffer -->
+                    <!-- Duration -->
+                    <li>
+                        <div class="fs-anim-lower">
+                            <h4>Uw energie</h4>
+                            <h1>Welke looptijd wil je?</h1>
+        
+                            <div class="o-layout o-layout--gutter-small fs-form--wide">
+                                <div class="o-layout__cell u-fraction--4of12">
+                                    <div class="offer__item offer__item--secondary">
+                                        <div class="offer-header-small">
+                                            <h2 class="offer-header-small__title">
+                                                Flexibel
+                                            </h2>
+                                        </div>
+                                
+                                        <div class="offer-content">
+                                            <div class="offer-content__description">
+                                                Een variabele prijs en<br/> iedere maand opzegbaar.
+                                            </div>
+                                            <div class="o-layout o-layout--align-bottom">
+                                                <div class="o-layout__cell">
+                                                    <div class="offer-content__price">
+                                                        € 111,40 <sup>/mnd</sup>
+                                                    </div>
+                                                </div>
+                                                <div class="o-layout__cell">
+                                                    <div class="offer-content__yearprice">
+                                                        € 1336,80 per jaar
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="o-layout__cell u-fraction--4of12">
+                                    <div class="offer__item offer__item--secondary fs-continue">
+                                        <div class="offer-header-small">
+                                            <h2 class="offer-header-small__title">
+                                                1 jaar
+                                            </h2>
+                                        </div>
+                                
+                                        <div class="offer-content">
+                                            <div class="offer-content__description">
+                                                Een vaste periode een<br/> vaste prijs.
+                                            </div>
+                                            <div class="o-layout o-layout--align-bottom">
+                                                <div class="o-layout__cell">
+                                                    <div class="offer-content__price">
+                                                        € 108,40 <sup>/mnd</sup>
+                                                    </div>
+                                                </div>
+                                                <div class="o-layout__cell">
+                                                    <div class="offer-content__yearprice">
+                                                        € 1312,30 per jaar
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>   
+                                </div>
+                                <div class="o-layout__cell u-fraction--4of12">
+                                    <div class="offer__item offer__item--secondary">
+                                        <div class="offer-header-small">
+                                            <h2 class="offer-header-small__title">
+                                                3 jaar
+                                            </h2>
+                                        </div>
+                                
+                                        <div class="offer-content">
+                                            <div class="offer-content__description">
+                                                Een vaste periode een<br/> vaste prijs.
+                                            </div>
+                                            <div class="o-layout o-layout--align-bottom">
+                                                <div class="o-layout__cell">
+                                                    <div class="offer-content__price">
+                                                        € 105,40 <sup>/mnd</sup>
+                                                    </div>
+                                                </div>
+                                                <div class="o-layout__cell">
+                                                    <div class="offer-content__yearprice">
+                                                        € 1092,12 per jaar
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>   
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- //Duration -->
+                    
+                    <!-- UPSELL -->
+                    
+                    
+                    
+                    
+                    <!-- PersonalDetails -->
+                    <li>
+                        <h1>PersonalDetails</h1>
+                    </li>
+                    <!-- //PersonalDetails -->
+                    <!-- PaymentDetails -->
+                    <li>
+                        <h1>PaymentDetails</h1>
+                    </li>
+                    <!-- //PaymentDetails -->
+                </ol><!-- /fs-fields -->
+            </form>
+        </div>
     </div>
-</div>
