@@ -15,13 +15,13 @@
   &__content {
     overflow: hidden;
     cursor: grab;
+  }
 
-    &__inner {
-      width: 2200px;
-      height: 480px;
-      padding-right: calc(7.5% - 10px);
-      overflow-y: hidden;
-    }
+  &__inner {
+    width: 2200px;
+    height: 480px;
+    padding-right: calc(7.5% - 10px);
+    overflow-y: hidden;
   }
 
   &__item {
