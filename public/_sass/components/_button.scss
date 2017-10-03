@@ -16,4 +16,9 @@ $c-button--space-horizontal: 40px !default;
   color: #1a171b;
   border:0;
   cursor:pointer;
+
+  &:hover{
+    background-color:#300c38;
+    color: $white;
+  }
 }

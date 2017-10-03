@@ -45,6 +45,12 @@
   }
 }
 
+.offer__item--secondary{
+  .offer-content{
+    border-radius: 0 0 6px 6px;
+  }
+}
+
 .offer-header,
 .offer-header-small {
   align-items: center;
@@ -98,9 +104,12 @@
   z-index: 1;
   margin-top:20px;
   margin-right:20px;
+  text-align: center;
+  line-height: 1.8rem;
   display:none;
+
   &:before {
-    content: "\e908";
+    content: "\e903";
     font-family: icons;
   }
 }
@@ -141,7 +150,7 @@
 
 .offer-content {
   background-color: $white;
-  border-radius: 0 0 6px 6px;
+  border-radius: 6px;
   box-sizing: border-box;
   padding: 15px 20px;
 }
