@@ -13,10 +13,18 @@
     height: 33px;
     align-self: center;
     margin-right: 60px;
+
+    &--toon {
+      width: auto;
+      height: 20px;
+    }
   }
 
   .c-navigation__items {
     font-size: 18px;
+    a {
+      color: #1a171b;
+    }
   }
 
   &--fixed {
