@@ -6,7 +6,9 @@
       "image-url" : "../../images/01-Home.jpg"
     },
     "slider" : {
-      "title" : "Inzicht &amp; besparen"
+      "title" : "Inzicht &amp; besparen",
+      "vandaag" : true,
+      "morgen" : true
     }
   }
 }

@@ -30,7 +30,7 @@
       "css" : "./public/css/"
     }
   },
-  "nodeModules": ["jquery", "dragscroll"],
+  "nodeModules": ["jquery", "dragscroll", "smoothstate"],
   "styleGuideExcludes": [
     "templates",
     "pages"
