@@ -391,11 +391,17 @@
 				if (i < this.current){
 					classie.add( this.ctrlNavDots[i], 'fs-dot-finished');
 				}
+
+				if (2 === this.current || 3 === this.current || 4 === this.current || 5 === this.current){
+					classie.remove( this.ctrlNavDots[1], 'fs-dot-finished' );
+					classie.add( this.ctrlNavDots[1], 'fs-dot-current' );
+				}
+
+				if (7 === this.current || 8 === this.current){
+					classie.remove( this.ctrlNavDots[6], 'fs-dot-finished' );
+					classie.add( this.ctrlNavDots[6], 'fs-dot-current' );
+				}
 			}
-
-			console.log(this.current)
-
-			//if (this.ctrlNavDots[ this.current ] )
 
 			classie.remove( this.ctrlNavDots[ this.current ], 'fs-dot-finished' );
 			classie.add( this.ctrlNavDots[ this.current ], 'fs-dot-current' );

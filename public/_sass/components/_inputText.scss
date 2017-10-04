@@ -3,6 +3,10 @@ $c-input-text--space-vertical: 13px !default;
 $c-input-text--space-horizontal: 7px !default;
 $c-input-text--border-radius: $border-radius--primary !default;
 
+input:focus{
+  outline: none;
+}
+
 .c-input-text {
   display: block;
   width: 100%;
