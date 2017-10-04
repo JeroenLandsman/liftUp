@@ -75,7 +75,7 @@ function showProgress() {
 
                 if (i+1 === listItem.length) {
                     setTimeout( function () {
-                        $('.nextPage').click();
+                        document.getElementById('nextPage').click();
                     }, 1000);
                 }
               next();
