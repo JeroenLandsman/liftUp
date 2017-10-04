@@ -1,4 +1,4 @@
-<div class="c-bert {{#large-bert}}c-bert--large{{/large-bert}}">
+<div id='bert' class="c-bert {{#large-bert}}c-bert--large{{/large-bert}}">
   <div class="c-bert__inner">
     {{#large-bert}}
       <h3 class="c-bert__title">Krijg persoonlijk besparingsadvies</h3>
@@ -23,7 +23,7 @@
         </div>
       </div>
       <div class="o-layout__cell u-fraction--5of12 u-text--center">
-        <button class="c-button">
+        <button id="bertButton" class="c-button" data-location={{link.pages-egflow}}>
           {{^large-bert}}
             Bereken maandbedrag
           {{/large-bert}}

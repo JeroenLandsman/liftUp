@@ -1,6 +1,6 @@
 $(document).ready(function() {
   if( $( "#stickynav" ).length ) {
-    setTimeout(scrollTop(), 1500);
+    scrollTop();
   }
 
   $(window).scroll(function() {
@@ -16,11 +16,12 @@ $(document).ready(function() {
 });
 
 function scrollTop() {
-  $('html, body').animate({scrollTop: '101px'}, 
-  {
-    duration: 800,
-    complete: showSticky()
-  });
+  setTimeout(function(){
+    $('html, body').animate({scrollTop: '101px'}, {
+      duration: 800,
+      complete: showSticky()
+    });
+  },1500);
 }
 
 function showSticky() {
