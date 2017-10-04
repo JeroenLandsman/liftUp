@@ -385,11 +385,9 @@
 		if( this.options.ctrlNavDots ) {
 			classie.remove( this.ctrlNav.querySelector( 'button.fs-dot-current' ), 'fs-dot-current');
 
-			console.log(this.ctrlNavDots.length)
-
 			const itemLength = this.ctrlNavDots.length
 
-			for (i = 0; i < itemLength; i++) { 
+			for (var i = 0; i < itemLength; i++) { 
 				if (i < this.current){
 					classie.add( this.ctrlNavDots[i], 'fs-dot-finished');
 				}
@@ -398,7 +396,7 @@
 			console.log(this.current)
 
 			//if (this.ctrlNavDots[ this.current ] )
-			
+
 			classie.remove( this.ctrlNavDots[ this.current ], 'fs-dot-finished' );
 			classie.add( this.ctrlNavDots[ this.current ], 'fs-dot-current' );
 			
