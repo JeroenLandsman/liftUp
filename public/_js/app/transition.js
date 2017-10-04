@@ -14,7 +14,8 @@
             content.toggleAnimationClass('is-exiting');
 
             // Scroll user to the top
-            $body.animate({ 'scrollTop': 0 });
+            // $body.animate({ 'scrollTop': 0 });
+            $body.scrollTop(0);
           }
         }
       }).data('smoothState'); // makes public methods available
@@ -42,7 +43,7 @@ $(document).ready(function() {
         });  
       }
     });  
-  });  
+  });
 
   //slider transition
   $("a.c-slider__link").on('click',function(event){

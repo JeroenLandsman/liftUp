@@ -3,7 +3,6 @@
 }
 
 #content {
-
   &.animate {
     transform: scale(0.8);
     transition: all 0.5s;
@@ -32,7 +31,7 @@
 
   #popup_content {
     height: 2360px;
-    margin: 0 0 760px;
+    margin: 0 0 calc(100vh + 300px);
     position: absolute;
   }
 }

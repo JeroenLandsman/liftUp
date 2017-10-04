@@ -1,9 +1,11 @@
 {{#stroomengas}}
-<div class="main scene_element scene_element--fadein">
-<div class="c-bert" id="bertOverlay"></div>
+<div id="main" class="main">
+{{> molecules-overlay }}
 {{> organisms-header }}
-{{> organisms-hero-banner}}
-<img src="../../images/e&g_desktop.png" alt="">
-{{> organisms-footer}}
+  <div class="scene_element scene_element--fadein">
+    {{> organisms-hero-banner}}
+    <img src="../../images/e&g_desktop.png" alt="">
+    {{> organisms-footer}}
+  </div>
 </div>
 {{/stroomengas}}

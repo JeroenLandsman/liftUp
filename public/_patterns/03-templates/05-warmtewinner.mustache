@@ -1,12 +1,16 @@
 {{#warmtewinner}}
-<div class="main scene_element scene_element--fadein">
+<div id="#main" class="main">
+  {{> molecules-popup }}
   {{> organisms-header }}
   <div class="scene_element scene_element--fadein">
-  {{> molecules-stickynav}}
-  {{> molecules-popup }}
-  <img src="../../images/warmtewinner_header.png" alt="">
-  {{> molecules-image-text-block}}
+    {{> molecules-stickynav}}
+    <img id="warmte_1" src="../../images/Warmtewinner_01.jpg" alt="">
+    <img id="warmte_2" src="../../images/Warmtewinner_02.jpg" alt="">
+    {{> molecules-image-text-block}}
+    <img id="warmte_3" src="../../images/Warmtewinner_05.jpg" alt="">
+    <img id="warmte_4" class="u-mb--huge" src="../../images/Warmtewinner_06.jpg" alt="">  
+    </div>
+    {{> organisms-footer}}
   </div>
-  {{> organisms-footer}}
 </div>
 {{/warmtewinner}}

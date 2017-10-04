@@ -1,10 +1,11 @@
 {{#inzichtenbesparen}}
-<div class="main">
-<div class="c-bert" id="bertOverlay"></div>
-{{> organisms-header }}
-{{> organisms-hero-banner}}
-{{> organisms-slider}}
-{{> molecules-text-block }}
-{{> organisms-footer}}
+<div id="#main" class="main">
+  {{> molecules-overlay }}
+  {{> organisms-header }}
+  <div class="scene_element scene_element--fadein">
+    {{> organisms-hero-banner}}
+    {{> organisms-slider}}
+    {{> molecules-text-block }}
+  </div>
 </div>
 {{/inzichtenbesparen}}

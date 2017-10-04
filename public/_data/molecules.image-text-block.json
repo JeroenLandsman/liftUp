@@ -1,6 +1,7 @@
 {
   "image-text-block" : [
     {
+      "id" : "warmte_5",
       "reverse" : false,
       "image-url" : "../../images/rekenmachien.png",
       "pre-header" : "Dit levert het op",
@@ -9,6 +10,7 @@
       "button" : "Bekijk hoeveel jij kan besparen"
     },
     {
+      "id" : "warmte_6",      
       "reverse" : true,
       "image-url" : "../../images/huis.png",
       "pre-header" : "Check je huis",

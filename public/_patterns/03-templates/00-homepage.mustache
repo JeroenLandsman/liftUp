@@ -1,12 +1,12 @@
 {{#homepage}}
 <div id="#main" class="main">
-<div class="c-bert scene_element scene_element--fadein" id="bertOverlay"></div>
+  {{> molecules-overlay }}
   {{> organisms-header }}
   <div class="scene_element scene_element--fadein">
     {{> organisms-hero-banner}}  
+    {{> organisms-slider}}
+    {{> organisms-help}}
+    {{> organisms-footer}}
   </div>
-  {{> organisms-slider}}
-  {{> organisms-help}}
-  {{> organisms-footer}}
 </div>
 {{/homepage}}
