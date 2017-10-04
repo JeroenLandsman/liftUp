@@ -1,31 +1,47 @@
-.c-icon{
-    display: inline-block;
-    text-align: center;
-    line-height: 0.8rem;
-    text-decoration: none;
+.c-icon {
+  display: inline-block;
+  text-align: center;
+  line-height: 0.8rem;
+  text-decoration: none;
 }
 
-.c-icon--round{
-    border-radius: 20px;
-    width: 16px;
-    height: 16px;
+.c-icon--round {
+  border-radius: 20px;
+  width: 16px;
+  height: 16px;
 
-    &-orange{
-        background-color:transparent;
-        background-image: linear-gradient(to right, #ff6c6c, #ff682f);
-        color:$white;
-    }
+  &-orange {
+    background-color:transparent;
+    background-image: linear-gradient(to right, #ff6c6c, #ff682f);
+    color:$white;
+  }
 
-    &-white{
-        background-color: #ffd9d6;
-        color:#ff6b5c !important;
-    }
+  &-white {
+    background-color: #ffd9d6;
+    color:#ff6b5c !important;
+  }
 }
 
-.c-icon--info{
-    &:before{
-        content: "\e901";
-        font-family: 'icons';
-        font-size: 11px;
-    }
+.c-icon--info {
+  &:before {
+    content: "\e901";
+    font-family: icons;
+    font-size: 11px;
+  }
+}
+
+.c-icon--check {
+  &:before {
+    content: "\e903";
+    font-family: icons;
+    font-size: 11px;
+  }
+}
+
+.c-icon--progress {
+  &:before {
+    content: "\e901";
+    font-family: icons;
+    font-size: 11px;
+  }
 }

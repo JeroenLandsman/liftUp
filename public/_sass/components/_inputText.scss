@@ -60,7 +60,7 @@ $c-input-text--border-radius: $border-radius--primary !default;
 }
 
 .c-input-text--postfix,
-.c-input-text--prefix{
+.c-input-text--prefix {
   line-height: blocss-value-to-rem(40px);
   border-bottom: $c-input-text--border-width solid $white;
   vertical-align: middle;
@@ -71,11 +71,11 @@ $c-input-text--border-radius: $border-radius--primary !default;
   color: #b24a41;
 }
 
-.c-input-text--prefix{
+.c-input-text--prefix {
   padding-left: calc(#{blocss-value-to-rem($c-input-text--space-horizontal)});
 }
 
-input[type='number'] {
+input[type="number"] {
   -moz-appearance:textfield;
 }
 

@@ -4,7 +4,7 @@
   height: 100%;
   color: $white;
 
-  a{
+  a:not(.c-button) {
     color: $white;
   }
 }
