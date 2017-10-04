@@ -15,7 +15,7 @@
     }
   }
 
-  a{
+  a {
     color: inherit;
   }
 
@@ -34,7 +34,7 @@
   }
 
   &:hover,
-  &.offer__item--checked{
+  &.offer__item--checked {
     &:before {
       opacity: 1;
     }
@@ -49,13 +49,10 @@
       color: $white;
     }
   }
-
-
-
 }
 
-.offer__item--secondary{
-  .offer-content{
+.offer__item--secondary {
+  .offer-content {
     border-radius: 0 0 6px 6px;
   }
 }

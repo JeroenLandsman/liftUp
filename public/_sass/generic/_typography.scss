@@ -28,7 +28,7 @@ h6,
   }
 }
 
-.popup{
+.popup {
   h1,
   h2,
   h3,
@@ -75,7 +75,7 @@ h6 {
   @include blocss-font-size($zeta, false);
 }
 
-.p--small{
+.p--small {
   font-size:14px;
 }
 
@@ -174,7 +174,7 @@ h6 {
 [class^="icon-"], [class*=" icon-"] {
 
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icons' !important;
+  font-family: icons !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -190,21 +190,27 @@ h6 {
 .icon-PDF:before {
   content: "\e900";
 }
+
 .icon-Info:before {
   content: "\e901";
 }
+
 .icon-Close:before {
   content: "\e902";
 }
+
 .icon-Check:before {
   content: "\e903";
 }
+
 .icon-Arrow-Up:before {
   content: "\e904";
 }
+
 .icon-Arrow-Right:before {
   content: "\e905";
 }
+
 .icon-Arrow-Down:before {
   content: "\e906";
 }

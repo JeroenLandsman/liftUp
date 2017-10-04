@@ -1,5 +1,9 @@
-.o-congratz{
-    position:absolute;
-    top:400px;
-    left:140px;
+.o-congratz {
+  position:absolute;
+  top:400px;
+  left:140px;
+
+  * {
+    color:$white;
+  }
 }

@@ -52,14 +52,36 @@
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
 }
 
+.fs-nav-dots button.fs-dot-finished {
+  width: 26px;
+  height: 26px;
+  margin: 26px 0;
+}
+
 .fs-nav-dots button:hover:before,
 .fs-nav-dots button.fs-dot-current:before {
   background: #ffffff;
 }
 
 .fs-nav-dots button.fs-dot-current:before {
-  content: "<";
-  font-size: 17px;
+  font-family: icons;
+  content: "\e905";
+  font-size: 12px;
+  line-height: 1rem;
   color: #ff6c6c;
+  padding: 3px 0;
+  transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+}
+
+.fs-nav-dots button.fs-dot-finished:before {
+  background: #ce4b49;
+  font-family: icons;
+  content: "\e903";
+  font-size: 12px;
+  line-height: 1rem;
+  color: $white;
   padding: 3px 0;
 }
