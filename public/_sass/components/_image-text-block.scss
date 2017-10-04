@@ -22,3 +22,22 @@
     color: #484549;
   }
 }
+
+.c-text-block {
+  h1 {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.17;
+    letter-spacing: 0.3px;
+    color: #1a171b;
+    margin-bottom: 30px;
+  }
+
+  p {
+    width: 640px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #686868;
+    margin-bottom: 30px;    
+  }
+}

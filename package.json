@@ -46,6 +46,7 @@
   },
   "dependencies": {
     "dragscroll": "0.0.8",
-    "jquery": "^3.2.1"
+    "jquery": "^3.2.1",
+    "smoothstate": "^0.7.2"
   }
 }

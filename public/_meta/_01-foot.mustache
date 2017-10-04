@@ -3,13 +3,45 @@
 <script src="../../js/lib/dragscroll/dragscroll.js"></script>
 <script src="../../js/lib/jquery/dist/jquery.min.js"></script>
 <script src="../../js/lib/modernizr.custom.js"></script>
+<script src="../../js/lib/smoothstate/jquery.smoothState.min.js"></script>
 
 
 <!-- App javascript -->
 <script src="../../js/app/main.js?{{ cacheBuster }}"></script>
 <script src="../../js/app/slider.js?{{ cacheBuster }}"></script>
+<script src="../../js/app/popup.js?{{ cacheBuster }}"></script>
+<script src="../../js/app/stickynav.js?{{ cacheBuster }}"></script>
 <script src="../../js/app/classie.js?{{ cacheBuster }}"></script>
 <script src="../../js/app/fullscreenForm.js?{{ cacheBuster }}"></script>
+<script src="../../js/app/transition.js?{{ cacheBuster }}"></script>
+
+<script>
+			(function() {
+				var formWrap = document.getElementById( 'fs-form-wrap' );
+
+				new FForm( formWrap, {
+					onReview : function() {
+						classie.add( document.body, 'overview' ); // for demo purposes only
+					}
+				} );
+            })();
+            
+            (function() {
+                var offerItem = document.querySelectorAll('.js-offerItem');
+
+                Array.from(offerItem).forEach(item => {
+                    item.addEventListener('click', function(event) {
+
+
+                        //document.querySelector('input[name="chb"]', this).prop("checked",true);
+                        [].forEach.call(offerItem, function(el) {
+                            el.classList.remove("offer__item--checked");
+                        });
+                        this.classList.add('offer__item--checked');
+                    });
+                });
+            })();
+		</script>
 <script src="../../js/app/egFlow.js?{{ cacheBuster }}"></script>
 
 <!-- Patternlab code: DO NOT MODIFY OR COPY TO PRODUCTION -->

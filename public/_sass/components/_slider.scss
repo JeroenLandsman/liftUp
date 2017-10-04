@@ -64,4 +64,19 @@
   &__arrow {
     height: 36px;
   }
+
+  &__link {
+    display: block;
+    overflow: hidden;
+    width: 420px;
+    height: 480px;
+
+    img {
+      transition: all 0.3s;
+    }
+
+    &:hover img {
+      transform: scale(1.1);
+    }
+  }
 }
