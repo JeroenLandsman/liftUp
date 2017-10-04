@@ -1,0 +1,27 @@
+.c-stickynav {
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  width: 100%;
+  display: flex;
+  padding: 20px 50px;
+  opacity: 0;
+  top: 100px;
+
+  &__logo {
+    width: 199px;
+    height: 33px;
+    align-self: center;
+    margin-right: 60px;
+  }
+
+  .c-navigation__items {
+    font-size: 18px;
+  }
+
+  &--fixed {
+    position: fixed;
+    top:0;
+    left:0;
+  }
+}
