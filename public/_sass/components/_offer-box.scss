@@ -92,6 +92,11 @@
   left:0;
   right:0;
   bottom:0;
+
+  img {
+    max-width: unset;
+    max-height:100%;
+  }
 }
 
 .offer-header-image__title {
@@ -194,9 +199,9 @@
 
 .offer-content__price {
   color: $body-text;
-  font-size: 35px;
+  font-size: 24px;
   letter-spacing: 0;
-  line-height: 40px;
+  line-height: 1.25rem;
   position: relative;
   transition: color 0.3s ease;
 
@@ -204,7 +209,6 @@
     color: #686868;
     font-size: 15px;
     letter-spacing: 0.3px;
-    top: -1em;
   }
 }
 

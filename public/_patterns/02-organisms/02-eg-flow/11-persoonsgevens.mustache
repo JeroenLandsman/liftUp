@@ -16,7 +16,7 @@
     </div>
     <div class="o-form__field u-mt--small">
         <label class="c-label" for="birthDay">Geboortedatum</label>
-        <input class="c-input-text" type="text" id="birthDay" name="birthDay" />
+        <input class="c-input-text" type="text" id="birthDay" name="birthDay" placeholder="dd-mm-jj" />
     </div>
     <div class="o-form__field u-mt--small">
         <label class="c-label" for="mobilePhone">Telefoonnummer (mobiel)</label>
@@ -52,18 +52,18 @@
     </div> 
 
     <div class="o-form__field u-mt--small">
-        <label class="c-label">Ben je al klant van Eneco?</label>
+        <label class="c-label">Ga je op een nieuw adres wonen?</label>
         <div class="o-layout u-mt--small u-mb--small o-layout--gutter-large">
             <div class="o-layout__cell u-fraction-auto">
                 <div class="c-radio">
-                    <input type="radio" id="knownCustomer" name="customer" value="y">
-                    <label for="knownCustomer">Ja</label>
+                    <input type="radio" id="newAddressYes" name="newAddress" value="y">
+                    <label for="newAddressYes">Ja</label>
                 </div>
             </div>
             <div class="o-layout__cell u-fraction-auto">
                 <div class="c-radio">
-                    <input type="radio" id="unknownCustomer" name="customer" value="n">
-                    <label for="unknownCustomer">Nee</label>
+                    <input type="radio" id="newAddressNo" name="newAddress" value="n">
+                    <label for="newAddressNo">Nee</label>
                 </div>
             </div>
         </div>
@@ -94,20 +94,20 @@
         <div class="o-layout u-mt--small u-mb--small o-layout--gutter-large">
             <div class="o-layout__cell u-fraction-auto">
                 <div class="c-radio">
-                    <input type="radio" id="knownCustomer" name="customer" value="y">
-                    <label for="knownCustomer">Ja</label>
+                    <input type="radio" id="leveringsAddressYes" name="leveringsAddress" value="y">
+                    <label for="leveringsAddressYes">Ja</label>
                 </div>
             </div>
             <div class="o-layout__cell u-fraction-auto">
                 <div class="c-radio">
-                    <input type="radio" id="unknownCustomer" name="customer" value="n">
-                    <label for="unknownCustomer">Nee</label>
+                    <input type="radio" id="leveringsAddressNo" name="leveringsAddress" value="n">
+                    <label for="leveringsAddressNo">Nee</label>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="o-layout u-mt--large">
+    <div class="o-layout u-mt--large u-mb--large">
         <div class="o-layout__cell">
             <div class="o-form__field">
                 <button class="c-button fs-continue">Naar betaalgegevens</button>

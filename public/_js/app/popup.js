@@ -14,6 +14,15 @@ $(document).ready(function() {
     setTimeout(undoclass, 600);
     
   });
+
+  $('.ketelComfortPopup').click(function(e) { 
+    e.preventDefault();
+    $('#overlay').fadeIn(500);
+    $('#popup').show();
+    $('#popup').animate({'top': '0'}, 500);
+    $('.close').animate({'bottom': '20'}, 500);    
+  });
+
   
   $('.close').click(function() { 
     

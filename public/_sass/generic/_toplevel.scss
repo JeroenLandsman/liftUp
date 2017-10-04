@@ -1,7 +1,7 @@
 html {
   font-family: $font-family-primary;
   color: $black;
-  background-color: orange;
+  background-color: $white;
 }
 
 body {
@@ -93,6 +93,7 @@ body,
       padding-top:19px;
       width:505px;
       height:auto;
+      z-index: 1;
     }
 
     &:hover {
