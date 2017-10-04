@@ -1,3 +1,5 @@
 {
-  "serviceencontact" : true
+  "serviceencontact" : {
+    "s&c-active" : true
+  }
 }

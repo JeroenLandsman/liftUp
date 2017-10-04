@@ -1,0 +1,24 @@
+.c-image-text-block {
+  &__pre-header {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: left;
+    color: #1a171b;
+  }
+
+  &__header {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #1a171b;
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+    color: #484549;
+  }
+}
