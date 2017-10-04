@@ -6,6 +6,18 @@
       "text" : "Nu investeren voor de energie van morgen. Eneco is loopt voorop in de energiewereld als het gaat om verduurzamen en innovaties.",
       "image-url" : "../../images/03-InzichtBesparen.jpg",
       "large-bert" : true
-    }
+    },
+    "slider" : [
+      {
+        "title" : "Producten van vandaag",
+        "hide-filter" : true,
+        "vandaag" : true
+      },
+      {
+        "title" : "Producten van morgen",
+        "hide-filter" : true,        
+        "morgen" : true
+      }
+    ]
   }
 }
