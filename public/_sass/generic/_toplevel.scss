@@ -31,6 +31,110 @@ body,
 .container--gradient {
   background: $red; /* For browsers that do not support gradients */
   background: linear-gradient(to right, $red, $orange); /* Standard syntax */
+
+  &-full{
+    height:100%;
+    width:100%;
+    position: fixed;
+    top:0;
+  }
+}
+
+.container--header{
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  height: 60px;  
+  background:$white;
+
+  &__logo{
+    margin-left:30px;
+    margin-top:12px;
+
+    img{
+      max-height: 36px;
+    }
+  }
+
+  &__close{
+    a{
+      font-family: $font-family-primary;
+      font-size: 16px;
+      line-height: 30px;
+      color: $black;
+      text-decoration: none;
+      margin: 15px 30px 15px  0;
+      display: block;
+      position: relative;
+      padding-right:19px;
+
+      &:after{
+        content: "\e902";
+        font-family: 'icons';
+        font-size: 9px;
+        color: $black;
+        position: absolute;
+        right:0;
+      }
+    }
+  }
+
+  &__totals{
+    margin-top:11px;
+    position: relative;
+    //display:none;
+
+    &-details{
+      display:none;
+      position:absolute;
+      right:-30px;
+      top:40px;
+      padding-top:19px;
+      width:505px;
+      height:auto;
+    }
+
+    &:hover{
+      .container--header__totals-details{
+        display:block;
+      }
+    }
+
+    .c-icon{
+      margin-top: -5px;
+      vertical-align: text-top;
+    }
+
+    &-price{
+      display:none;
+    }
+
+    &-text{
+      font-size: 15px;
+      letter-spacing: 0.3px;
+      color: #a3a3a3;
+    }
+
+    &-value{
+      font-size: 30px;
+      line-height: 1.33;
+      color: #1a171b;
+
+      &-suffix{
+        font-size: 15px;
+        letter-spacing: 0.3px;
+        text-align: left;
+        color: #1a171b;
+        top: -0.7em;
+      }
+    }
+    
+  }
+}
+
+.container--content{
+  margin-top:60px;
 }
 
 .main {

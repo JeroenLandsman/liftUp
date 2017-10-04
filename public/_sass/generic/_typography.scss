@@ -28,6 +28,28 @@ h6,
   }
 }
 
+.popup{
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .u-heading {
+    color: $white;
+
+    > a {
+      color: inherit;
+
+      &:active,
+      &:hover,
+      &:focus {
+        color: $brand-primary-b;
+      }
+    }
+  }
+}
+
 
 h1 {
   @include blocss-font-size($beta, false);

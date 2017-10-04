@@ -1,4 +1,40 @@
-<div class="container container--gradient">
+<div class="container">
+    <div class="container--gradient container--gradient-full"></div>
+    <div class="container--header">
+        <div class="o-layout o-layout--gutter-large">
+            <div class="o-layout__cell o-layout__cell--fill">
+                <div class="o-layout">
+                    <div class="o-layout__cell o-layout__cell--fill">
+                        <div class="container--header__logo">
+                            <img src="/images/logo.jpg" alt="Eneco">
+                        </div>
+                    </div>
+                    <div class="o-layout__cell o-layout__cell--fit">
+                        <div class="container--header__totals">
+                            <span class="container--header__totals-text">totaal</span>
+                            <span class="container--header__totals-value">&euro; 
+                                <span class="container--header__totals-price container--header__totals-price1">30,80</span>
+                                <span class="container--header__totals-price container--header__totals-price2">111,40</span>
+                                <span class="container--header__totals-price container--header__totals-price3">108,40</span>
+                                <span class="container--header__totals-price container--header__totals-price4">111,90</span>
+                            </span>
+                            <sup class="container--header__totals-value-suffix">/mnd</sup>
+                            <a href="#" class="c-icon c-icon--info c-icon--round c-icon--round-orange"></a>
+                            <div class="container--header__totals-details">
+                                <img src="/images/bonnetje.png"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="o-layout__cell o-layout__cell--fit">
+                <div class="container--header__close">
+                    <a href="">sluiten</a>
+                </div>
+            </div>          
+        </div>
+    </div>
+    <div class="container--content">
         <div class="popup fs-form-wrap" id="fs-form-wrap">
             <form id="myform" class="fs-form fs-form-full" autocomplete="off">
                 <ol class="fs-fields">
@@ -40,10 +76,13 @@
                     <!-- //PersonalDetails -->
                     <!-- PaymentDetails -->
                     <li>
-                        <h1>PaymentDetails</h1>
+                        {{> organisms-betalingsgegevens}}
                     </li>
                     <!-- //PaymentDetails -->
+
+
                 </ol><!-- /fs-fields -->
             </form>
         </div>
     </div>
+</div>
