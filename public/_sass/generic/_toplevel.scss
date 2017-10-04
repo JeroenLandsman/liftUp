@@ -83,16 +83,16 @@ body,
   &__totals{
     margin-top:11px;
     position: relative;
-    display:none;
+    //display:none;
 
     &-details{
       display:none;
       position:absolute;
       right:-30px;
-      top:59px;
-      width:200px;
-      height:200px;
-      background: $white;
+      top:40px;
+      padding-top:19px;
+      width:505px;
+      height:auto;
     }
 
     &:hover{
@@ -104,6 +104,10 @@ body,
     .c-icon{
       margin-top: -5px;
       vertical-align: text-top;
+    }
+
+    &-price{
+      display:none;
     }
 
     &-text{
