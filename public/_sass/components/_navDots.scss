@@ -1,11 +1,11 @@
 .fs-nav-dots {
   visibility: hidden;
   position: absolute;
-  top: 45%;
+  top: 266px;
   left: 60px;
   right: auto;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+  //-webkit-transform: translateY(-50%);
+  //transform: translateY(-50%);
 }
 
 .fs-nav-dots button {

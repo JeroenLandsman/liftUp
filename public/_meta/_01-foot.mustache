@@ -10,34 +10,7 @@
 <script src="../../js/app/slider.js?{{ cacheBuster }}"></script>
 <script src="../../js/app/classie.js?{{ cacheBuster }}"></script>
 <script src="../../js/app/fullscreenForm.js?{{ cacheBuster }}"></script>
-
-<script>
-			(function() {
-				var formWrap = document.getElementById( 'fs-form-wrap' );
-
-				new FForm( formWrap, {
-					onReview : function() {
-						classie.add( document.body, 'overview' ); // for demo purposes only
-					}
-				} );
-            })();
-            
-            (function() {
-                var offerItem = document.querySelectorAll('.js-offerItem');
-
-                Array.from(offerItem).forEach(item => {
-                    item.addEventListener('click', function(event) {
-
-
-                        //document.querySelector('input[name="chb"]', this).prop("checked",true);
-                        [].forEach.call(offerItem, function(el) {
-                            el.classList.remove("offer__item--checked");
-                        });
-                        this.classList.add('offer__item--checked');
-                    });
-                });
-            })();
-		</script>
+<script src="../../js/app/egFlow.js?{{ cacheBuster }}"></script>
 
 <!-- Patternlab code: DO NOT MODIFY OR COPY TO PRODUCTION -->
 {{{ patternLabFoot }}}

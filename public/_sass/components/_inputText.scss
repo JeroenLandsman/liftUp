@@ -59,7 +59,8 @@ $c-input-text--border-radius: $border-radius--primary !default;
   }
 }
 
-.c-input-text--postfix{
+.c-input-text--postfix,
+.c-input-text--prefix{
   line-height: blocss-value-to-rem(40px);
   border-bottom: $c-input-text--border-width solid $white;
   vertical-align: middle;
@@ -68,6 +69,10 @@ $c-input-text--border-radius: $border-radius--primary !default;
   font: inherit;
   font-size: blocss-value-to-rem(30px);
   color: #b24a41;
+}
+
+.c-input-text--prefix{
+  padding-left: calc(#{blocss-value-to-rem($c-input-text--space-horizontal)});
 }
 
 input[type='number'] {

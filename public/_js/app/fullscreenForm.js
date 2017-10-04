@@ -184,7 +184,8 @@
 			if (continueBtn){
 				continueBtn.addEventListener('click', function(e) {
 					e.preventDefault();
-					self._nextField(); 
+					self._nextField();
+					showTotals();
 				});
 			}
 
