@@ -295,6 +295,7 @@ gulp.task('svgstore', function () {
 
 gulp.task('connect', function() {
   browserSync.init({
+    startPath: '/patterns/04-pages-00-homepage/04-pages-00-homepage.html',    
     server: {
       baseDir: config.paths.public.root
     },
