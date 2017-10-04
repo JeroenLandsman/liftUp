@@ -34,4 +34,13 @@
   width: 0;
   height: 0;
   position: absolute;
+  opacity: 0;
+
+  &.toon {
+    background-image: linear-gradient(to top, #a9ccc6, #cde2d6);
+  }
+
+  &.warmte {
+    background-image: linear-gradient(to bottom, #fdb49a, #ed8585);
+  }
 }
