@@ -3,4 +3,32 @@
   right: 10px;
   top: 200px;
   z-index: 1;
+
+  &--top{
+    position:absolute;
+    -webkit-animation: rotorSpin 10s linear infinite;
+    animation:rotorSpin 10s linear infinite;
+    width:477px;
+    height:467px;
+    left: -47px;
+    top: -80px;
+
+    object{
+      width:100%;
+    }
+  }
+  
+  @keyframes rotorSpin{
+    from{transform:rotate(0deg)}
+    to{transform:rotate(360deg)}	
+  }
+
+  &--bottom{
+    width:431px;
+    height:626px;
+
+    object{
+      width:100%;
+    }
+  }
 }

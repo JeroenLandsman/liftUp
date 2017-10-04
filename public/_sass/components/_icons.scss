@@ -39,9 +39,16 @@
 }
 
 .c-icon--progress {
-  &:before {
-    content: "\e901";
-    font-family: icons;
-    font-size: 11px;
-  }
+  background: url(/images/loader.png) 0 0 repeat;
+  background-size: 30px 30px;
+  transform: rotate(360deg);
+  width: 30px;
+  height: 30px;
+  -webkit-animation: spin 1s linear infinite;
+  animation:spin 1s linear infinite;
+}
+
+@keyframes spin{
+	from{transform:rotate(0deg)}
+	to{transform:rotate(360deg)}	
 }
