@@ -1,0 +1,39 @@
+<div class="fs-anim-lower">
+    <h4>Je energie</h4>
+    <h1>Wat is je stroomverbruik?</h1>
+
+    <label class="c-label" for="monthlyUsage">Verbruik per maand</label>
+    
+    <div class="o-layout">
+        <div className="o-layout__cell  o-layout__cell--fill">
+            <input type="number" class="c-input-text" id="monthlyUsage" name="monthlyUsage" placeholder="0" />
+        </div>
+        <div className="o-layout__cell  o-layout__cell--fit">
+            <div class="c-input-text--postfix">
+                <span>kWh</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="o-layout u-mt--large">
+        <div class="o-layout__cell">
+            <div class="c-checkbox">
+                <input type="checkbox" id="doubleMeter" name="doubleMeter" value="doubleMeter">
+                <label for="doubleMeter">Ik heb een dubbele meter<a href="#" class="u-ml--small c-icon c-icon--info c-icon--round c-icon--round-white"></a></label>
+            </div>
+        </div>
+        <div class="o-layout__cell">
+            <div class="c-checkbox">
+                <input type="checkbox" id="sunPanels" name="sunPanels" value="sunPanels">
+                <label for="sunPanels">Ik heb zonnepanelen</label>
+            </div>
+        </div>
+    </div>
+    <div class="o-layout u-mt--large">
+        <div class="o-layout__cell">
+            <div class="o-form__field">
+                <button class="c-button fs-continue">Volgende stap</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+<nav class="o-layout c-navigation">
+  <div class="o-layout__cell o-layout__cell--fill">
+    <div class="o-layout">
+        {{> atoms-logo}}
+        <ul class="c-navigation__items">        
+          <li><a href="{{ link.pages-stroomengas }}" class="{{#s&g-active}}c-navigation--active{{/s&g-active}}">Stroom &amp; Gas</a></li>
+          <li><a href="{{ link.pages-inzichtenbesparen }}" class="{{#i&b-active}}c-navigation--active{{/i&b-active}}">Inzicht &amp; besparen</a></li>
+          <li><a href="{{ link.pages-serviceencontact }}" class="{{#s&c-active}}c-navigation--active{{/s&c-active}}">Service &amp; contact</a></li>
+        </ul>
+    </div>
+  </div>
+  <div class="o-layout__cell o-layout__cell--fit">
+      <ul class="c-navigation__items">
+          <li><a href="#">Zakelijk</a></li>
+          <li><a href="#">Inloggen</a></li>
+          <li class="c-navigation__image" >
+            <a href="#">
+              <img src="../../images/hamburger.png" alt="menu Alt Text" />
+            </a>
+          </li>
+        </ul>
+  </div>
+</nav>

@@ -1,0 +1,758 @@
+{
+  "version": 1,
+  "timestamp": 1507368049532,
+  "graph": {
+    "options": {
+      "directed": true,
+      "multigraph": false,
+      "compound": false
+    },
+    "nodes": [
+      {
+        "v": "00-atoms\\00-global\\00-colors.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms\\00-global\\01-fonts.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms\\00-global\\02-animations.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms\\01-text\\00-headings.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms\\01-text\\01-headings-with-links.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms\\01-text\\02-paragraph.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms\\01-text\\03-blockquote.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms\\01-text\\04-inline-elements.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms\\01-text\\05-time.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms\\01-text\\06-preformatted-text.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms\\01-text\\07-hr.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms\\02-lists\\00-unordered.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms\\02-lists\\01-ordered.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms\\02-lists\\02-definition.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms\\03-images\\00-logo.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/01-molecules-00-navigation-00-primary-nav\\01-molecules-00-navigation-00-primary-nav.html",
+          "lineagePattern": "molecules-primary-nav"
+        }
+      },
+      {
+        "v": "00-atoms\\04-forms\\00-label.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms\\04-forms\\01-input-hidden.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms\\04-forms\\02-input-text.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms\\04-forms\\03-input-radio.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms\\04-forms\\04-input-checkbox.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms\\04-forms\\05-select.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms\\04-forms\\06-textarea.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms\\05-buttons\\00-button.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/00-atoms-05-buttons-01-button-types\\00-atoms-05-buttons-01-button-types.html",
+          "lineagePattern": "atoms-button-types"
+        }
+      },
+      {
+        "v": "00-atoms\\05-buttons\\01-button-types.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms\\06-tables\\00-table.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms\\07-media\\00-video.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms\\07-media\\01-audio.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-molecules\\00-navigation\\00-primary-nav.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-00-global-00-header\\02-organisms-00-global-00-header.html",
+          "lineagePattern": "organisms-header"
+        }
+      },
+      {
+        "v": "01-molecules\\00-navigation\\01-stickynav-toon.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-04-toon\\03-templates-04-toon.html",
+          "lineagePattern": "templates-toon"
+        }
+      },
+      {
+        "v": "01-molecules\\00-navigation\\01-stickynav.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-05-warmtewinner\\03-templates-05-warmtewinner.html",
+          "lineagePattern": "templates-warmtewinner"
+        }
+      },
+      {
+        "v": "01-molecules\\01-objects\\00-bert.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-01-home-00-hero-banner\\02-organisms-01-home-00-hero-banner.html",
+          "lineagePattern": "organisms-hero-banner"
+        }
+      },
+      {
+        "v": "01-molecules\\01-objects\\01-image-text-block.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-05-warmtewinner\\03-templates-05-warmtewinner.html",
+          "lineagePattern": "templates-warmtewinner"
+        }
+      },
+      {
+        "v": "01-molecules\\01-objects\\02-popup.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-05-warmtewinner\\03-templates-05-warmtewinner.html",
+          "lineagePattern": "templates-warmtewinner"
+        }
+      },
+      {
+        "v": "01-molecules\\01-objects\\03-text-block.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-02-inzichtenbesparen\\03-templates-02-inzichtenbesparen.html",
+          "lineagePattern": "templates-inzichtenbesparen"
+        }
+      },
+      {
+        "v": "01-molecules\\01-objects\\04-overlay.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-03-serviceencontact\\03-templates-03-serviceencontact.html",
+          "lineagePattern": "templates-serviceencontact"
+        }
+      },
+      {
+        "v": "02-organisms\\00-global\\00-header.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-07-egflowbedankt\\04-pages-07-egflowbedankt.html",
+          "lineagePattern": "pages-egflowbedankt"
+        }
+      },
+      {
+        "v": "02-organisms\\00-global\\01-footer.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-07-egflowbedankt\\04-pages-07-egflowbedankt.html",
+          "lineagePattern": "pages-egflowbedankt"
+        }
+      },
+      {
+        "v": "02-organisms\\01-home\\00-hero-banner.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-02-inzichtenbesparen\\03-templates-02-inzichtenbesparen.html",
+          "lineagePattern": "templates-inzichtenbesparen"
+        }
+      },
+      {
+        "v": "02-organisms\\01-home\\01-slider.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-02-inzichtenbesparen\\03-templates-02-inzichtenbesparen.html",
+          "lineagePattern": "templates-inzichtenbesparen"
+        }
+      },
+      {
+        "v": "02-organisms\\01-home\\02-help.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-00-homepage\\03-templates-00-homepage.html",
+          "lineagePattern": "templates-homepage"
+        }
+      },
+      {
+        "v": "02-organisms\\02-eg-flow\\01-zipcode.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-04-egflow\\03-templates-04-egflow.html",
+          "lineagePattern": "templates-egflow"
+        }
+      },
+      {
+        "v": "02-organisms\\02-eg-flow\\02-energyType.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-04-egflow\\03-templates-04-egflow.html",
+          "lineagePattern": "templates-egflow"
+        }
+      },
+      {
+        "v": "02-organisms\\02-eg-flow\\03-energyUsage.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-04-egflow\\03-templates-04-egflow.html",
+          "lineagePattern": "templates-egflow"
+        }
+      },
+      {
+        "v": "02-organisms\\02-eg-flow\\04-electricityUsage.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-04-egflow\\03-templates-04-egflow.html",
+          "lineagePattern": "templates-egflow"
+        }
+      },
+      {
+        "v": "02-organisms\\02-eg-flow\\05-electricityUsageEstimation.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-04-egflow\\03-templates-04-egflow.html",
+          "lineagePattern": "templates-egflow"
+        }
+      },
+      {
+        "v": "02-organisms\\02-eg-flow\\06-gasUsage.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-04-egflow\\03-templates-04-egflow.html",
+          "lineagePattern": "templates-egflow"
+        }
+      },
+      {
+        "v": "02-organisms\\02-eg-flow\\07-electricityOffer.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-04-egflow\\03-templates-04-egflow.html",
+          "lineagePattern": "templates-egflow"
+        }
+      },
+      {
+        "v": "02-organisms\\02-eg-flow\\08-gasOffer.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-04-egflow\\03-templates-04-egflow.html",
+          "lineagePattern": "templates-egflow"
+        }
+      },
+      {
+        "v": "02-organisms\\02-eg-flow\\09-duration.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-04-egflow\\03-templates-04-egflow.html",
+          "lineagePattern": "templates-egflow"
+        }
+      },
+      {
+        "v": "02-organisms\\02-eg-flow\\10-upsell.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-04-egflow\\03-templates-04-egflow.html",
+          "lineagePattern": "templates-egflow"
+        }
+      },
+      {
+        "v": "02-organisms\\02-eg-flow\\11-persoonsgevens.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-04-egflow\\03-templates-04-egflow.html",
+          "lineagePattern": "templates-egflow"
+        }
+      },
+      {
+        "v": "02-organisms\\02-eg-flow\\12-betalingsgegevens.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-04-egflow\\03-templates-04-egflow.html",
+          "lineagePattern": "templates-egflow"
+        }
+      },
+      {
+        "v": "03-templates\\00-homepage.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-00-homepage\\04-pages-00-homepage.html",
+          "lineagePattern": "pages-homepage"
+        }
+      },
+      {
+        "v": "03-templates\\01-stroomengas.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-01-stroomengas\\04-pages-01-stroomengas.html",
+          "lineagePattern": "pages-stroomengas"
+        }
+      },
+      {
+        "v": "03-templates\\02-inzichtenbesparen.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-02-inzichtenbesparen\\04-pages-02-inzichtenbesparen.html",
+          "lineagePattern": "pages-inzichtenbesparen"
+        }
+      },
+      {
+        "v": "03-templates\\03-serviceencontact.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-03-serviceencontact\\04-pages-03-serviceencontact.html",
+          "lineagePattern": "pages-serviceencontact"
+        }
+      },
+      {
+        "v": "03-templates\\04-egflow.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-06-egflow\\04-pages-06-egflow.html",
+          "lineagePattern": "pages-egflow"
+        }
+      },
+      {
+        "v": "03-templates\\04-toon.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-04-toon\\04-pages-04-toon.html",
+          "lineagePattern": "pages-toon"
+        }
+      },
+      {
+        "v": "03-templates\\05-warmtewinner.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-05-warmtewinner\\04-pages-05-warmtewinner.html",
+          "lineagePattern": "pages-warmtewinner"
+        }
+      },
+      {
+        "v": "04-pages\\00-homepage.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "04-pages\\01-stroomengas.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "04-pages\\02-inzichtenbesparen.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "04-pages\\03-serviceencontact.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "04-pages\\04-toon.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "04-pages\\05-warmtewinner.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "04-pages\\06-berekenen.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "04-pages\\06-egflow.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "04-pages\\07-egflowbedankt.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "E:\\Development\\liftUp\\public\\_meta\\_00-head.mustache",
+        "value": {
+          "compileState": null
+        }
+      },
+      {
+        "v": "E:\\Development\\liftUp\\public\\_meta\\_01-foot.mustache",
+        "value": {
+          "compileState": null
+        }
+      }
+    ],
+    "edges": [
+      {
+        "v": "00-atoms\\05-buttons\\01-button-types.mustache",
+        "w": "00-atoms\\05-buttons\\00-button.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-molecules\\00-navigation\\00-primary-nav.mustache",
+        "w": "00-atoms\\03-images\\00-logo.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms\\00-global\\00-header.mustache",
+        "w": "01-molecules\\00-navigation\\00-primary-nav.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms\\01-home\\00-hero-banner.mustache",
+        "w": "01-molecules\\01-objects\\00-bert.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\00-homepage.mustache",
+        "w": "01-molecules\\01-objects\\04-overlay.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\00-homepage.mustache",
+        "w": "02-organisms\\00-global\\00-header.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\00-homepage.mustache",
+        "w": "02-organisms\\01-home\\00-hero-banner.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\00-homepage.mustache",
+        "w": "02-organisms\\01-home\\01-slider.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\00-homepage.mustache",
+        "w": "02-organisms\\01-home\\02-help.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\00-homepage.mustache",
+        "w": "02-organisms\\00-global\\01-footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\01-stroomengas.mustache",
+        "w": "01-molecules\\01-objects\\04-overlay.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\01-stroomengas.mustache",
+        "w": "02-organisms\\00-global\\00-header.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\01-stroomengas.mustache",
+        "w": "02-organisms\\01-home\\00-hero-banner.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\01-stroomengas.mustache",
+        "w": "02-organisms\\00-global\\01-footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\02-inzichtenbesparen.mustache",
+        "w": "01-molecules\\01-objects\\04-overlay.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\02-inzichtenbesparen.mustache",
+        "w": "02-organisms\\00-global\\00-header.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\02-inzichtenbesparen.mustache",
+        "w": "02-organisms\\01-home\\00-hero-banner.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\02-inzichtenbesparen.mustache",
+        "w": "02-organisms\\01-home\\01-slider.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\02-inzichtenbesparen.mustache",
+        "w": "01-molecules\\01-objects\\03-text-block.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\03-serviceencontact.mustache",
+        "w": "01-molecules\\01-objects\\04-overlay.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\03-serviceencontact.mustache",
+        "w": "02-organisms\\00-global\\00-header.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\03-serviceencontact.mustache",
+        "w": "02-organisms\\00-global\\01-footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\04-egflow.mustache",
+        "w": "02-organisms\\02-eg-flow\\01-zipcode.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\04-egflow.mustache",
+        "w": "02-organisms\\02-eg-flow\\02-energyType.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\04-egflow.mustache",
+        "w": "02-organisms\\02-eg-flow\\03-energyUsage.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\04-egflow.mustache",
+        "w": "02-organisms\\02-eg-flow\\04-electricityUsage.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\04-egflow.mustache",
+        "w": "02-organisms\\02-eg-flow\\05-electricityUsageEstimation.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\04-egflow.mustache",
+        "w": "02-organisms\\02-eg-flow\\06-gasUsage.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\04-egflow.mustache",
+        "w": "02-organisms\\02-eg-flow\\07-electricityOffer.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\04-egflow.mustache",
+        "w": "02-organisms\\02-eg-flow\\08-gasOffer.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\04-egflow.mustache",
+        "w": "02-organisms\\02-eg-flow\\09-duration.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\04-egflow.mustache",
+        "w": "02-organisms\\02-eg-flow\\10-upsell.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\04-egflow.mustache",
+        "w": "02-organisms\\02-eg-flow\\11-persoonsgevens.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\04-egflow.mustache",
+        "w": "02-organisms\\02-eg-flow\\12-betalingsgegevens.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\04-toon.mustache",
+        "w": "02-organisms\\00-global\\00-header.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\04-toon.mustache",
+        "w": "01-molecules\\00-navigation\\01-stickynav-toon.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\04-toon.mustache",
+        "w": "02-organisms\\00-global\\01-footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\05-warmtewinner.mustache",
+        "w": "01-molecules\\01-objects\\02-popup.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\05-warmtewinner.mustache",
+        "w": "02-organisms\\00-global\\00-header.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\05-warmtewinner.mustache",
+        "w": "01-molecules\\00-navigation\\01-stickynav.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\05-warmtewinner.mustache",
+        "w": "01-molecules\\01-objects\\01-image-text-block.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\05-warmtewinner.mustache",
+        "w": "02-organisms\\00-global\\01-footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages\\00-homepage.mustache",
+        "w": "03-templates\\00-homepage.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages\\01-stroomengas.mustache",
+        "w": "03-templates\\01-stroomengas.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages\\02-inzichtenbesparen.mustache",
+        "w": "03-templates\\02-inzichtenbesparen.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages\\03-serviceencontact.mustache",
+        "w": "03-templates\\03-serviceencontact.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages\\04-toon.mustache",
+        "w": "03-templates\\04-toon.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages\\05-warmtewinner.mustache",
+        "w": "03-templates\\05-warmtewinner.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages\\06-egflow.mustache",
+        "w": "03-templates\\04-egflow.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages\\07-egflowbedankt.mustache",
+        "w": "02-organisms\\00-global\\00-header.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages\\07-egflowbedankt.mustache",
+        "w": "02-organisms\\00-global\\01-footer.mustache",
+        "value": {}
+      }
+    ]
+  }
+}
