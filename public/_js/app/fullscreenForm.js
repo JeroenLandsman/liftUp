@@ -186,6 +186,7 @@
 					e.preventDefault();
 					self._nextField();
 					showTotals();
+					$('html, body').animate({ scrollTop: '0' }, 500);
 				});
 			}
 
