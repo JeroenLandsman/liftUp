@@ -13,9 +13,8 @@
 (function() {
     var offerItem = document.querySelectorAll('.js-offerItem');
 
-    Array.from(offerItem).forEach(item => {
+    [].slice.call(document.getElementsByClassName('js-offerItem')).forEach(item => {
         item.addEventListener('click', function(event) {
-
 
             //document.querySelector('input[name="chb"]', this).prop("checked",true);
             [].forEach.call(offerItem, function(el) {
